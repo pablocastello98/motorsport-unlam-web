@@ -10,7 +10,9 @@ export type TeamKey =
   | "sponsors"
   | "prensaydifusion"
   | "redes"
-
+  | "ti"
+  | "planificacion"
+  
 export type TeamMember = {
   name: string
   careerKey: string
@@ -202,5 +204,30 @@ export const teamMembers: TeamMember[] = [
     name: "Priscila Jurado",
     careerKey: "comunicacionSocial",
     teams: ["redes"],
+  },
+  {
+    name: "Aldana Acosta",
+    careerKey: "ingenieriaElectronica",
+    teams: ["ti"],
+  },
+  {
+    name: "Giuliana Costabile",
+    careerKey: "ingenieriaInformatica",
+    teams: ["ti"],
+  }, 
+  {
+    name: "Nahuel Cejas",
+    careerKey: "ingenieriaInformatica",
+    teams: ["ti"],
+  }, 
+  {
+    name: "Pablo Castello",
+    careerKey: "ingenieriaIndustrial",
+    teams: ["planificacion"],
+  }, 
+  {
+    name: "Tomas Lopez Toscano",
+    careerKey: "ingenieriaIndustrial",
+    teams: ["planificacion"],
   }
 ]
