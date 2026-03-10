@@ -171,7 +171,6 @@
     contactoExitosoMensaje: "Obrigado por entrar em contato. A equipe Motorsport UNLaM responderá em breve.",
     botonReenviar: "Enviar outra mensagem",
 
-
     // Footer
     footerText: "Equipe de competição da Universidad Nacional de La Matanza",
     siguenos: "Siga-nos",

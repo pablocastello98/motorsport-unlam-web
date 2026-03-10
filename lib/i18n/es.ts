@@ -166,10 +166,10 @@ export const es = {
     mensajeLabel: "¿Cómo te gustaría colaborar?",
     mensajePlaceholder: "Contanos sobre tu interés en el proyecto...",
     enviarConsulta: "Enviar consulta",
-	  botonCargaConsulta: "Enviando...",
+    botonCargaConsulta: "Enviando...",
     contactoExitosoTitulo: "¡Mensaje Enviado!",
     contactoExitosoMensaje: "Gracias por contactarte. El equipo de Motorsport UNLaM te responderá pronto.",
-  	botonReenviar: "Enviar otro mensaje",    
+    botonReenviar: "Enviar otro mensaje",
 
     // Footer
     footerText: "Equipo de competición de la Universidad Nacional de La Matanza",

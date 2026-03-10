@@ -166,10 +166,10 @@
     mensajeLabel: "How would you like to collaborate?",
     mensajePlaceholder: "Tell us about your interest in the project...",
     enviarConsulta: "Send inquiry",
-   	botonCargaConsulta: "Sending...",
-  	contactoExitosoTitulo: "Message Sent!",
-   	contactoExitosoMensaje: "Thanks for reaching out. The Motorsport UNLaM team will respond shortly.",
-  	botonReenviar: "Send another message",
+    botonCargaConsulta: "Sending...",
+    contactoExitosoTitulo: "Message Sent!",
+    contactoExitosoMensaje: "Thanks for reaching out. The Motorsport UNLaM team will respond shortly.",
+    botonReenviar: "Send another message",
 
     // Footer
     footerText: "Racing team of the Universidad Nacional de La Matanza",
