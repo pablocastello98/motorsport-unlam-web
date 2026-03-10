@@ -108,10 +108,10 @@
 
     // Sponsors
     nuestroSponsors: "Nossos Patrocinadores",
-    sponsorText:
+    sponsorsText:
       "O desenvolvimento de um veículo de competição requer o apoio de empresas e instituições comprometidas com a educação e a inovação tecnológica. Agradecemos aos nossos patrocinadores por tornar este projeto possível.",
-    sponsorsTitle: "Nossos Patrocinadores",
-    sponsorsDescription: "Empresas e instituições que acreditam em nós.",
+    sponsorTitle: "Nossos Patrocinadores",
+    sponsorDescription: "Empresas e instituições que acreditam em nós.",
     logoSponsor: "Logo do Patrocinador",
 
     // Contact
@@ -166,6 +166,10 @@
     mensajeLabel: "Como você gostaria de colaborar?",
     mensajePlaceholder: "Conte-nos sobre seu interesse no projeto...",
     enviarConsulta: "Enviar consulta",
+    botonCargaConsulta: "Enviando...",
+    contactoExitosoTitulo: "Mensagem Enviada!",
+    contactoExitosoMensaje: "Obrigado por entrar em contato. A equipe Motorsport UNLaM responderá em breve.",
+    botonReenviar: "Enviar outra mensagem",
 
     // Footer
     footerText: "Equipe de competição da Universidad Nacional de La Matanza",
@@ -199,6 +203,9 @@
     suspension: "Suspensão",
     frenos: "Freios",
     eventos: "Coordenação de eventos",
+    sponsors: "Sponsors",
+    prensa: "Imprensa e Divulgação",
+    redes: "Redes Sociais",
     ti: "Tecnologia da Informação",
     planificacion: "Planejamento",
 
@@ -286,25 +293,4 @@
     prensaObj4: "Produzir e distribuir conteúdo audiovisual (entrevistas, tours de oficina, marcos de fabricação e testes) que traduza engenharia em confiança para perfis não técnicos.",
     prensaObj5: "Coordenar visitas à oficina e propostas de colaboração, com reuniões mensais de planejamento e melhoria contínua para assegurar coerência entre o que se comunica e o que se executa no carro (carro em funcionamento 2026, Brasil 2027).",
     prensaTeamDesc: "A equipe de Imprensa e Divulgação da Motorsport UNLaM trabalha com papéis definidos: coordenação e gestão de imprensa, acompanhamento pós-imprensa, produção e distribuição audiovisual e planejamento de objetivos. Seu foco é sustentar um fluxo de comunicação profissional: materiais oficiais, agenda de entrevistas, coordenação de visitas e relatórios de divulgação, alinhando a mensagem com o avanço real do veículo e as expectativas de patrocinadores da Fórmula SAE Argentina.",
-
-    tiSubtitle: "A equipe de Tecnologia da Informação da Motorsport UNLaM desenvolve e mantém as ferramentas digitais do projeto, incluindo o site oficial da equipe e os sistemas de telemetria utilizados para aquisição e análise de dados do veículo.",
-    tiDescription1: "A área de Tecnologia da Informação é responsável pelo desenvolvimento, manutenção e evolução das plataformas digitais da equipe. Entre suas principais tarefas está a construção e gestão do site oficial, utilizado como meio de comunicação, divulgação do projeto e apresentação técnica do veículo.",
-    tiDescription2: "Além disso, a equipe trabalha no desenvolvimento de sistemas de aquisição de dados (DAQ) e telemetria do veículo, permitindo registrar informações relevantes durante testes e competições. Esses dados incluem variáveis relacionadas ao comportamento do carro que posteriormente são analisadas para melhorar a tomada de decisões de engenharia.",
-    tiDescription3: "Essa abordagem permite integrar tecnologia, análise de dados e comunicação digital dentro do ecossistema técnico da equipe, contribuindo para o desenvolvimento do veículo e para o crescimento da Motorsport UNLaM.",
-    tiObj1: "Desenvolver e manter o site oficial da equipe como plataforma de comunicação e divulgação do projeto.",
-    tiObj2: "Projetar e implementar sistemas de aquisição de dados (DAQ) para registrar informações relevantes do veículo.",
-    tiObj3: "Desenvolver ferramentas de análise e visualização de dados para interpretar o comportamento do carro.",
-    tiObj4: "Integrar a telemetria às necessidades de outras equipes técnicas como eletrônica, chassi e dinâmica veicular.",
-    tiObj5: "Garantir a confiabilidade, organização e acessibilidade das informações geradas durante testes e competições.",
-    tiTeamDesc: "A equipe de Tecnologia da Informação da Motorsport UNLaM é composta por estudantes com formação em programação, desenvolvimento web, análise de dados e sistemas digitais. A estrutura de trabalho é organizada de forma colaborativa, permitindo abordar tanto o desenvolvimento de plataformas digitais quanto a implementação de sistemas de telemetria que contribuem para a análise técnica do veículo e para o crescimento do projeto.",
-
-    planificacionSubtitle: "A equipe de Planejamento da Motorsport UNLaM coordena a organização técnica e estratégica do projeto, garantindo que as diferentes áreas da equipe trabalhem de forma alinhada durante as diversas etapas de desenvolvimento do veículo e dentro dos prazos estabelecidos pela competição Formula SAE.",
-    planificacionDescription: "A área de Planejamento é responsável por estruturar e supervisionar o cronograma geral do projeto, coordenando as tarefas das diferentes equipes técnicas e garantindo que o desenvolvimento do veículo avance de forma organizada e eficiente.",
-    planificacionObj1: "Definir e gerenciar o cronograma de desenvolvimento do veículo.",
-    planificacionObj2: "Coordenar o trabalho entre as diferentes equipes técnicas do projeto.",
-    planificacionObj3: "Supervisionar o cumprimento dos marcos e prazos estabelecidos para o desenvolvimento do veículo.",
-    planificacionObj4: "Otimizar a organização das tarefas e a alocação de recursos da equipe.",
-    planificacionObj5: "Contribuir para o planejamento estratégico do projeto visando a competição de Formula SAE.",
-    planificacionTeamDesc: "A equipe de Planejamento é composta por estudantes que trabalham na organização estratégica do projeto, coordenando o trabalho entre as áreas técnicas e gerenciando o avanço do desenvolvimento do veículo. Seu papel é fundamental para garantir um progresso constante e que todas as áreas trabalhem de forma integrada em direção aos objetivos do projeto.",
-    
   } as const

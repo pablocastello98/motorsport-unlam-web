@@ -119,9 +119,9 @@ export function Header() {
   ]
 
   const languages = [
-    { code: "es" as Language, label: "ES", flag: "ðŸ‡¦ðŸ‡·" },
-    { code: "en" as Language, label: "EN", flag: "ðŸ‡ºðŸ‡¸" },
-    { code: "pt" as Language, label: "PT", flag: "ðŸ‡§ðŸ‡·" },
+    { code: "es" as Language, label: "ES", flag: "🇦🇷" },
+    { code: "en" as Language, label: "EN", flag: "🇺🇸" },
+    { code: "pt" as Language, label: "PT", flag: "🇧🇷" },
   ]
 
   return (
