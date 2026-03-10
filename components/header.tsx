@@ -99,6 +99,8 @@ export function Header() {
         { nameKey: "suspension", href: "/equipos/suspension" },
         { nameKey: "electronica", href: "/equipos/electronica" },
         { nameKey: "frenos", href: "/equipos/frenos" },
+        { nameKey: "ti", href: "/equipos/ti" },
+        { nameKey: "planificacion", href: "/equipos/planificacion" }, 
       ],
     },
     {

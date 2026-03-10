@@ -7,6 +7,7 @@ export const es = {
     comercioInternacional: "Comercio internacional",
     comunicacionSocial: "Comunicación social",
     licenciaturaAdministracion: "Licenciatura en administración",
+    
 
     // Header
     inicio: "Inicio",
@@ -202,6 +203,8 @@ export const es = {
     sponsors: "Sponsors",
     prensa: "Prensa y Difusión",
     redes: "Redes sociales",
+    ti: "Tecnologías de la Información", 
+    planificacion: "Planificación",
 
     // Team Pages - Common
     queHaceEquipo: "¿Qué hace el equipo?",
@@ -305,5 +308,26 @@ export const es = {
     redesObj4: "Medir performance por plataforma (alcance, interacción y retención) para iterar formatos y priorizar lo que mejor comunica valor a la industria.",
     redesObj5: "Generar entregables para partners: cobertura de hitos, activos institucionales y material de soporte para reporting de sponsoreo.",
     redesTeamDesc: "El equipo de Redes Sociales de Motorsport UNLaM se organiza por roles (planificación, creación, edición y analítica) para producir contenido consistente en Instagram, TikTok y LinkedIn. Trabaja con calendario editorial, guías de marca y circuitos de aprobación, coordinando con ingeniería y sponsors para documentar diseño, fabricación y pruebas del monoplaza de la Formula SAE. El objetivo es comunicar avances con claridad para perfiles comerciales y técnicos, y sostener reporting reutilizable rumbo a un auto en marcha en 2026 y a Brasil 2027.",
+
+    tiSubtitle: "El equipo de Tecnología de la Información de Motorsport UNLaM desarrolla y mantiene las herramientas digitales del proyecto, incluyendo la página web oficial del equipo y los sistemas de telemetría utilizados para la adquisición y análisis de datos del vehículo.", 
+    tiDescription1: "El área de Tecnología de la Información es responsable del desarrollo, mantenimiento y evolución de las plataformas digitales del equipo. Entre sus principales tareas se encuentra la construcción y gestión de la página web oficial, utilizada como medio de comunicación, difusión del proyecto y presentación técnica del vehículo.",
+    tiDescription2: "Además, el equipo trabaja en el desarrollo de sistemas de adquisición de datos (DAQ) y telemetría del vehículo, permitiendo registrar información relevante durante pruebas y competencias. Estos datos incluyen variables del comportamiento del auto que luego son analizadas para mejorar la toma de decisiones de ingeniería.",
+    tiDescription3: "Este enfoque permite integrar tecnología, análisis de datos y comunicación digital dentro del ecosistema técnico del equipo, contribuyendo al desarrollo del vehículo y a la proyección de Motorsport UNLaM.",
+    tiObj1: "Desarrollar y mantener la página web oficial del equipo como plataforma de comunicación y difusión del proyecto.", 
+    tiObj2: "Diseñar e implementar sistemas de adquisición de datos (DAQ) para registrar información relevante del vehículo.", 
+    tiObj3: "Desarrollar herramientas de análisis y visualización de datos que permitan interpretar el comportamiento del auto.",
+    tiObj4: "Integrar la telemetría con las necesidades de otros equipos técnicos como electrónica, chasis y dinámica del vehículo.", 
+    tiObj5: "Garantizar la confiabilidad, organización y accesibilidad de la información generada durante pruebas y competencias.",
+    tiTeamDesc: "El equipo de Tecnología de la Información de Motorsport UNLaM está conformado por estudiantes con formación en programación, desarrollo web, análisis de datos y sistemas digitales. La estructura de trabajo se organiza de forma colaborativa, permitiendo abordar tanto el desarrollo de plataformas digitales como la implementación de sistemas de telemetría que contribuyen al análisis técnico del vehículo y al crecimiento del proyecto.",
+
+    planificacionSubtitle: "El equipo de Planificación de Motorsport UNLaM coordina la organización técnica y estratégica del proyecto, asegurando que las distintas áreas del equipo trabajen de forma alineada durante las distintas etapas de desarrollo del vehículo y los plazos establecidos por la competencia Formula SAE.",
+    planificacionDescription: "El área de Planificación es responsable de estructurar y supervisar el cronograma general del proyecto, coordinando las tareas de los distintos equipos técnicos y asegurando que el desarrollo del vehículo avance de forma ordenada y eficiente.", 
+    planificacionObj1: "Definir y gestionar el cronograma de desarrollo del vehículo.", 
+    planificacionObj2: "Coordinar el trabajo entre los distintos equipos técnicos del proyecto.", 
+    planificacionObj3: "Supervisar el cumplimiento de hitos y plazos establecidos para el desarrollo del vehículo.", 
+    planificacionObj4: "Optimizar la organización de tareas y la asignación de recursos del equipo.", 
+    planificacionObj5: "Contribuir a la planificación estratégica del proyecto de cara a la competencia de Formula SAE.", 
+    planificacionTeamDesc: "El equipo de Planificación está conformado por estudiantes que trabajan en la organización estratégica del proyecto, coordinando el trabajo entre áreas técnicas y gestionando el avance del desarrollo del vehículo. Su rol es fundamental para asegurar que el equipo mantenga un progreso constante y que las distintas áreas trabajen de forma integrada hacia los objetivos del proyecto.", 
+
 
   } as const

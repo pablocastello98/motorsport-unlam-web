@@ -199,6 +199,8 @@
     suspension: "Suspension",
     frenos: "Brakes",
     eventos: "Event Coordination",
+    ti: "Information Technology", 
+    planificacion: "Planning",
 
     // Team Pages - Common
     queHaceEquipo: "What does the team do?",
@@ -284,4 +286,26 @@
     prensaObj4: "Produce and distribute audiovisual content (interviews, workshop tours, manufacturing milestones, and tests) that translates engineering into confidence for non-technical profiles.",
     prensaObj5: "Coordinate workshop visits and collaboration proposals, with monthly planning and continuous improvement meetings to ensure coherence between what is communicated and what is executed on the car (running car 2026, Brazil 2027).",
     prensaTeamDesc: "The Press and Outreach team at Motorsport UNLaM works with defined roles: press coordination and management, post-press follow-up, audiovisual production and distribution, and goal planning. Its focus is to sustain a professional communication flow: official materials, interview agenda, visit coordination, and outreach reports, aligning the message with the real progress of the vehicle and the expectations of Formula SAE Argentina sponsors.",
+
+    tiSubtitle: "The Information Technology team of Motorsport UNLaM develops and maintains the project's digital tools, including the team's official website and the telemetry systems used for vehicle data acquisition and analysis.",
+    tiDescription1: "The Information Technology area is responsible for the development, maintenance and evolution of the team's digital platforms. One of its main tasks is the creation and management of the official website, which serves as a communication channel, project outreach platform and technical presentation of the vehicle.",
+    tiDescription2: "Additionally, the team works on the development of vehicle data acquisition (DAQ) and telemetry systems, allowing relevant information to be recorded during testing and competitions. These data include variables related to the car's behavior that are later analyzed to improve engineering decision-making.",
+    tiDescription3: "This approach allows technology, data analysis and digital communication to be integrated within the team's technical ecosystem, contributing to the development of the vehicle and the growth of Motorsport UNLaM.",
+    tiObj1: "Develop and maintain the team's official website as a communication and project outreach platform.",
+    tiObj2: "Design and implement data acquisition (DAQ) systems to record relevant vehicle information.",
+    tiObj3: "Develop data analysis and visualization tools to interpret the vehicle's behavior.",
+    tiObj4: "Integrate telemetry with the needs of other technical teams such as electronics, chassis and vehicle dynamics.",
+    tiObj5: "Ensure the reliability, organization and accessibility of the information generated during testing and competitions.",
+    tiTeamDesc: "The Information Technology team of Motorsport UNLaM is composed of students with backgrounds in programming, web development, data analysis and digital systems. The work structure is organized collaboratively, allowing the team to address both the development of digital platforms and the implementation of telemetry systems that contribute to the technical analysis of the vehicle and the growth of the project.",
+
+    planificacionSubtitle: "The Planning team of Motorsport UNLaM coordinates the technical and strategic organization of the project, ensuring that the different areas of the team work in alignment throughout the various stages of vehicle development and within the deadlines established by the Formula SAE competition.",
+    planificacionDescription: "The Planning area is responsible for structuring and supervising the overall project schedule, coordinating the tasks of the different technical teams and ensuring that the development of the vehicle progresses in an organized and efficient manner.",
+    planificacionObj1: "Define and manage the vehicle development schedule.",
+    planificacionObj2: "Coordinate the work between the different technical teams of the project.",
+    planificacionObj3: "Monitor the fulfillment of milestones and deadlines established for vehicle development.",
+    planificacionObj4: "Optimize task organization and the allocation of team resources.",
+    planificacionObj5: "Contribute to the strategic planning of the project for the Formula SAE competition.",
+    planificacionTeamDesc: "The Planning team is composed of students who work on the strategic organization of the project, coordinating the work between technical areas and managing the progress of the vehicle development. Their role is essential to ensure steady progress and that all areas work in an integrated way toward the objectives of the project.",
+
+
   } as const
