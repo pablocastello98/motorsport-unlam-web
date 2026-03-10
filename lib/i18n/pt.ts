@@ -166,6 +166,10 @@
     mensajeLabel: "Como você gostaria de colaborar?",
     mensajePlaceholder: "Conte-nos sobre seu interesse no projeto...",
     enviarConsulta: "Enviar consulta",
+    botonCargaConsulta: "Enviando...",
+    contactoExitosoTitulo: "Mensagem Enviada!",
+    contactoExitosoMensaje: "Obrigado por entrar em contato. A equipe Motorsport UNLaM responderá em breve.",
+    botonReenviar: "Enviar outra mensagem",
 
     // Footer
     footerText: "Equipe de competição da Universidad Nacional de La Matanza",
