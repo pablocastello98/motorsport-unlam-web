@@ -27,7 +27,7 @@ export default function ChasisPage() {
           <TeamImage
             src="/images/equipos/chasis/CHASIS.webp"
             altKey="chasis"
-            className = "w-full h-[550px] object-cover object-[center_25%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_25%]"
           />
           <TeamDescription
             icon={Box}

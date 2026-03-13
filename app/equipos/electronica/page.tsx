@@ -26,7 +26,7 @@ export default function ElectronicaPage() {
           <TeamHero titleKey="electronica" subtitleKey="electronicaSubtitle" isVisible={isVisible} />
           <TeamImage
             src="/images/equipos/electronica/Foto-Equipo-Electronica.webp"
-            className = "w-full h-[500px] object-cover object-[center_25%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_25%]"
             altKey="electronica"
           />
           <TeamDescription icon={Cpu} descriptionKeys={["electronicaDescription"]} />

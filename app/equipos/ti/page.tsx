@@ -28,7 +28,7 @@ export default function TIPage() {
           <TeamHero titleKey="ti" subtitleKey="tiSubtitle" isVisible={isVisible} />
           <TeamImage
             src="/images/equipos/ti/foto-equipo-ti.webp"
-            className = "w-full h-[400px] object-cover object-[center_25%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_40%]"
             altKey="ti"
           />
           <TeamDescription icon={Cpu} descriptionKeys={[

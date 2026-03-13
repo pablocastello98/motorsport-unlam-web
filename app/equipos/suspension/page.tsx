@@ -27,7 +27,7 @@ export default function SuspensionPage() {
           <TeamImage
             src="/images/equipos/suspension/fotoSuspension.webp"
             altKey="suspension"
-            className = "w-full h-[220px] md:h-[400px] object-cover object-[center_30%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_30%]"
           />
           <TeamDescription icon={Settings} descriptionKeys={["suspensionDescription"]} />
           <TeamObjectives

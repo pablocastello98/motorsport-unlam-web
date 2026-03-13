@@ -27,6 +27,7 @@ export default function EventosPage() {
           <TeamImage
             src="/images/equipos/eventos/motorsport-unlam-eventos-y-difusion-caminando-arco-autodromo-oscar-y-juan-galvez-buenos-aires.webp"
             altKey="eventos"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-center]"
           />
           <TeamDescription icon={Settings} descriptionKeys={["eventosDescription"]} />
           <TeamObjectives

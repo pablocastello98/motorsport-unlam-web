@@ -26,7 +26,7 @@ export default function sponsorsPage() {
           <TeamHero titleKey="sponsors" subtitleKey="sponsorsSubtitle" isVisible={isVisible} />
           <TeamImage
             src="/images/equipos/sponsors/fotosponsors.webp"
-            className = "w-full h-[220px] md:h-[500px] object-cover object-top"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
             altKey="sponsors"
           />
           <TeamDescription icon={Settings} descriptionKeys={["sponsorsDescription"]} />

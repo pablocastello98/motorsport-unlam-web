@@ -27,7 +27,7 @@ export default function FrenosPage() {
           <TeamImage
             src="\images\equipos\frenos\FRENOS.webp"
             altKey="frenos"
-            className = "w-full h-[650px] object-cover object-[center_30%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={Settings} descriptionKeys={["frenosDescription"]} />
           <TeamObjectives

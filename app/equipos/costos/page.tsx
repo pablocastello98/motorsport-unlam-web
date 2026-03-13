@@ -29,7 +29,7 @@ export default function CostosPage() {
           <TeamImage
             src="/images/equipos/costos/fotocostosYfinanzas.webp"
             altKey="costos"
-            className = "w-full h-[450px] object-cover object-top"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={DollarSign} descriptionKeys={["costosDescription"]} />
           <TeamObjectives

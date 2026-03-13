@@ -27,7 +27,7 @@ export default function PlanficacionPage() {
           <TeamImage
             src="/images/equipos/planificacion/PLANIF.webp"
             altKey="planificacion"
-            className = "w-full h-[550px] object-cover object-top"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={Settings} descriptionKeys={["planificacionDescription"]} />
           <TeamObjectives

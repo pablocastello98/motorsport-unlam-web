@@ -26,7 +26,7 @@ export default function AerodinamicaPage() {
           <TeamHero titleKey="aerodinamica" subtitleKey="aerodinamicaSubtitle" isVisible={isVisible} />
           <TeamImage
             src="/images/equipos/aerodinamica/Foto-Equipo-Aerodinamica.webp"
-            className = "w-full h-[400px] object-cover object-[center_25%]"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_25%]"
             altKey="aerodinamica"
           />
           <TeamDescription
