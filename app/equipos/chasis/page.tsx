@@ -25,8 +25,9 @@ export default function ChasisPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="chasis" subtitleKey="chasisSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/chasis/motorsport-unlam-formula-sae-equipo-chasis-armado-prototipo-pvc-taller.webp"
+            src="/images/equipos/chasis/CHASIS.webp"
             altKey="chasis"
+            className = "w-full h-[550px] object-cover object-[center_25%]"
           />
           <TeamDescription
             icon={Box}

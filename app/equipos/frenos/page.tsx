@@ -25,8 +25,9 @@ export default function FrenosPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="frenos" subtitleKey="frenosSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/frenos/motorsport-unlam-formula-sae-equipo-frenos-trabajo-taller-sistema-de-frenado.webp"
+            src="\images\equipos\frenos\FRENOS.webp"
             altKey="frenos"
+            className = "w-full h-[650px] object-cover object-[center_30%]"
           />
           <TeamDescription icon={Settings} descriptionKeys={["frenosDescription"]} />
           <TeamObjectives
