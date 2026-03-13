@@ -25,7 +25,8 @@ export default function ElectronicaPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="electronica" subtitleKey="electronicaSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/electronica/motorsport-unlam-formula-sae-equipo-electronica-diagnostico-electrico-taller.webp"
+            src="/images/equipos/electronica/Foto-Equipo-Electronica.webp"
+            className = "w-full h-[500px] object-cover object-[center_25%]"
             altKey="electronica"
           />
           <TeamDescription icon={Cpu} descriptionKeys={["electronicaDescription"]} />

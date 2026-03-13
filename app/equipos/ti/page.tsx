@@ -27,7 +27,8 @@ export default function TIPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="ti" subtitleKey="tiSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/suspension/motorsport-unlam-formula-sae-equipo-suspension-asesoramiento-tecnico-pirelli-autodromo.webp"
+            src="/images/equipos/ti/foto-equipo-ti.webp"
+            className = "w-full h-[400px] object-cover object-[center_25%]"
             altKey="ti"
           />
           <TeamDescription icon={DollarSign} descriptionKeys={[
