@@ -25,7 +25,8 @@ export default function AerodinamicaPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="aerodinamica" subtitleKey="aerodinamicaSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/aerodinamica/motorsport-unlam-formula-sae-equipo-aerodinamica-taller.webp"
+            src="/images/equipos/aerodinamica/Foto-Equipo-Aerodinamica.webp"
+            className = "w-full h-[400px] object-cover object-[center_25%]"
             altKey="aerodinamica"
           />
           <TeamDescription
