@@ -27,8 +27,9 @@ export default function CostosPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="costos" subtitleKey="costosSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/costos/motorsport-unlam-formula-sae-miembros-del-equipo-trabajando-en-el-taller.webp"
+            src="/images/equipos/costos/fotocostosYfinanzas.webp"
             altKey="costos"
+            className = "w-full h-[450px] object-cover object-top"
           />
           <TeamDescription icon={DollarSign} descriptionKeys={["costosDescription"]} />
           <TeamObjectives

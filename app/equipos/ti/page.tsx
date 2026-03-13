@@ -2,7 +2,7 @@
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { DollarSign, Target } from "lucide-react"
+import { Cpu, DollarSign, Target } from "lucide-react"
 import { useEffect, useState } from "react"
 import { useLanguage } from "@/contexts/language-context"
 import { TeamMembersSection } from "@/components/team-members-section"
@@ -30,8 +30,8 @@ export default function TIPage() {
             src="/images/equipos/ti/foto-equipo-ti.webp"
             className = "w-full h-[400px] object-cover object-[center_25%]"
             altKey="ti"
-          />
-          <TeamDescription icon={DollarSign} descriptionKeys={[
+          />s
+          <TeamDescription icon={Cpu} descriptionKeys={[
              "tiDescription1",
               "tiDescription2",
               "tiDescription3",
