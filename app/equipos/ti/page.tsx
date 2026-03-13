@@ -30,7 +30,7 @@ export default function TIPage() {
             src="/images/equipos/ti/foto-equipo-ti.webp"
             className = "w-full h-[400px] object-cover object-[center_25%]"
             altKey="ti"
-          />s
+          />
           <TeamDescription icon={Cpu} descriptionKeys={[
              "tiDescription1",
               "tiDescription2",

@@ -25,8 +25,9 @@ export default function sponsorsPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="sponsors" subtitleKey="sponsorsSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/sponsors/motorsport-unlam-formula-sae-equipo-reunido-trabajando-en-el-taller.webp"
-            altKey="Miembros de Motorsport UNLaM reunidos trabajando en el taller en tareas de diseño, armado y planificación del proyecto Fórmula SAE/Formula Student."
+            src="/images/equipos/sponsors/fotosponsors.webp"
+            className = "w-full h-[220px] md:h-[500px] object-cover object-top"
+            altKey="sponsors"
           />
           <TeamDescription icon={Settings} descriptionKeys={["sponsorsDescription"]} />
           <TeamObjectives
