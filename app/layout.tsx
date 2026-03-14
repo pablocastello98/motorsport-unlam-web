@@ -18,10 +18,10 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Motorsport UNLaM - Innovación en Movilidad Eléctrica",
+  title: "Motorsport UNLaM - Equipo de Formula SAE en Argentina",
   description:
-    "Equipo interdisciplinario de la Universidad Nacional de La Matanza desarrollando un vehículo eléctrico para Formula SAE International 2027",
-  generator: "v0.app",
+    "Somos un equipo interdisciplinario de la Universidad Nacional de La Matanza desarrollando un monoplaza eléctrico para competir en la Formula SAE Brasil 2027",
+  generator: "Motorsport UNLaM",
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",

@@ -179,7 +179,7 @@
     privacidad: "Privacy",
     terminos: "Terms",
     derechos: "All rights reserved.",
-    footerDescription: "Innovation in electric mobility from the Universidad Nacional de La Matanza.",
+    footerDescription: "Formula SAE project based in Argentina.",
     navegacion: "Navigation",
     sobreNosotrosLink: "About us",
     vehiculoLink: "The vehicle",
