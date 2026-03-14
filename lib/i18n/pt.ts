@@ -7,6 +7,7 @@
     comercioInternacional: "Comércio Internacional",
     comunicacionSocial: "Comunicação Social",
     licenciaturaAdministracion: "Administração",
+    diseño: "Design Gráfico",
 
     // Header
     inicio: "Início",
@@ -208,6 +209,7 @@
     redes: "Redes Sociais",
     ti: "Tecnologia da Informação",
     planificacion: "Planejamento",
+    diseñoGrafico: "Design Gráfico",
 
     // Team Pages - Common
     queHaceEquipo: "O que a equipe faz?",

@@ -12,6 +12,7 @@ export type TeamKey =
   | "redes"
   | "ti"
   | "planificacion"
+  | "diseñoGrafico"
   
 
 
@@ -64,38 +65,14 @@ export const teamMembers: TeamMember[] = [
     teams: ["chasis"],
   },
   {
-    name: "",
-    labelKey: "liderEquipo",
-    careerKey: "estrategiaCoordinacion",
-    teams: ["comunicacion"],
-  },
-  {
-    name: "",
-    labelKey: "communityManagers",
-    careerKey: "gestionRedes",
-    teams: ["comunicacion"],
-  },
-  {
-    name: "",
-    labelKey: "disenadoresGraficos",
-    careerKey: "contenidoVisual",
-    teams: ["comunicacion"],
-  },
-  {
-    name: "",
-    labelKey: "fotografosVideografos",
-    careerKey: "produccionAudiovisual",
-    teams: ["comunicacion"],
-  },
-  {
     name: "Tomas Banegas",
     careerKey: "licenciaturaAdministracion",
-    teams: ["costos"],
+    teams: ["costos","sponsors"],
   },
   {
     name: "Tomas Cáceres",
     careerKey: "comercioInternacional",
-    teams: ["costos"],
+    teams: ["costos","sponsors"],
   },
   {
     name: "Sebastian Pulice",
@@ -116,16 +93,6 @@ export const teamMembers: TeamMember[] = [
     name: "Joaquin Fernandez",
     careerKey: "ingenieriaElectronica",
     teams: ["electronica"],
-  },
-  {
-    name: "Rocio Sárate",
-    careerKey: "comunicacionSocial",
-    teams: ["eventos"],
-  },
-  {
-    name: "Felipe Vila",
-    careerKey: "comunicacionSocial",
-    teams: ["eventos"],
   },
   {
     name: "Lucio Casali",
@@ -170,12 +137,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Carolina Sosa",
     careerKey: "comunicacionSocial",
-    teams: ["prensaydifusion"],
-  },
-  {
-    name: "Ignacio Abba",
-    careerKey: "comunicacionSocial",
-    teams: ["prensaydifusion"],
+    teams: ["eventos"],
   },
   {
     name: "Abril Mochetti",
@@ -183,17 +145,17 @@ export const teamMembers: TeamMember[] = [
     teams: ["redes"],
   },
   {
+    name: "Bautista Jurado",
+    careerKey: "diseñoGrafico",
+    teams: ["redes"],
+  },
+  {
     name: "Demian Toledo",
     careerKey: "comunicacionSocial",
-    teams: ["redes"],
+    teams: ["eventos"],
   },
   {
     name: "Magali Martinez",
-    careerKey: "comunicacionSocial",
-    teams: ["redes"],
-  },
-  {
-    name: "Naim Sejas",
     careerKey: "comunicacionSocial",
     teams: ["redes"],
   },

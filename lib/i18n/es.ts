@@ -7,6 +7,7 @@ export const es = {
     comercioInternacional: "Comercio internacional",
     comunicacionSocial: "Comunicación social",
     licenciaturaAdministracion: "Licenciatura en administración",
+    diseño: "Diseño Gráfico",
     
 
     // Header
@@ -209,6 +210,7 @@ export const es = {
     redes: "Redes Sociales",
     ti: "Tecnologías de la Información", 
     planificacion: "Planificación",
+    diseñoGrafico: "Diseño Gráfico",
 
     // Team Pages - Common
     queHaceEquipo: "¿Qué hace el equipo?",
