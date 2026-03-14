@@ -7,6 +7,7 @@
     comercioInternacional: "International Trade",
     comunicacionSocial: "Social Communication",
     licenciaturaAdministracion: "Business Administration",
+    diseño: "Graphic Design",
 
     // Header
     inicio: "Home",
@@ -208,7 +209,7 @@
     redes: "Social Media",
     ti: "Information Technology", 
     planificacion: "Planning",
-  
+    diseñoGrafico: "Graphic Design",
 
     // Team Pages - Common
     queHaceEquipo: "What does the team do?",
