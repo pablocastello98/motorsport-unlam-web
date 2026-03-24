@@ -113,9 +113,9 @@ export const es = {
     sponsorsText:
       "El desarrollo de un vehículo de competición requiere el apoyo de empresas e instituciones comprometidas con la educación y la innovación tecnológica. Agradecemos a nuestros patrocinadores por hacer posible este proyecto.",
     sponsorTitle: "Nuestros Sponsors",
-    sponsorDescription: "Empresas e instituciones que creen en nosotros.",
+    sponsorDescription: "Empresas que creen en nosotros.",
     logoSponsor: "Logo Sponsor",
-
+    sponsorInstituciones: "Instituciones que nos acompañan",
     // Contact
     uneteEquipo: "Unite al equipo",
     contactText:

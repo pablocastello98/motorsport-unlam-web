@@ -114,6 +114,7 @@
     sponsorTitle: "Our Sponsors",
     sponsorDescription: "Companies and institutions that believe in us.",
     logoSponsor: "Sponsor Logo",
+    sponsorInstituciones: "Institutions that support us",
 
     // Contact
     uneteEquipo: "Join the team",

@@ -114,6 +114,7 @@
     sponsorTitle: "Nossos Patrocinadores",
     sponsorDescription: "Empresas e instituições que acreditam em nós.",
     logoSponsor: "Logo do Patrocinador",
+    sponsorInstituciones: "Instituições que nos acompanham",
 
     // Contact
     uneteEquipo: "Junte-se à equipe",
