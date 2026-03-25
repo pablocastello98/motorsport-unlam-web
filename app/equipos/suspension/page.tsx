@@ -25,8 +25,9 @@ export default function SuspensionPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="suspension" subtitleKey="suspensionSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/suspension/motorsport-unlam-formula-sae-equipo-suspension-asesoramiento-tecnico-pirelli-autodromo.webp"
+            src="/images/equipos/suspension/fotoSuspension.webp"
             altKey="suspension"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_30%]"
           />
           <TeamDescription icon={Settings} descriptionKeys={["suspensionDescription"]} />
           <TeamObjectives
