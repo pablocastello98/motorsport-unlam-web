@@ -112,7 +112,7 @@
     sponsorsText:
       "O desenvolvimento de um veículo de competição requer o apoio de empresas e instituições comprometidas com a educação e a inovação tecnológica. Agradecemos aos nossos patrocinadores por tornar este projeto possível.",
     sponsorTitle: "Nossos Patrocinadores",
-    sponsorDescription: "Empresas e instituições que acreditam em nós.",
+    sponsorDescription: "Empresas que acreditam em nós.",
     logoSponsor: "Logo do Patrocinador",
     sponsorInstituciones: "Instituições que nos acompanham",
 

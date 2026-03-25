@@ -112,7 +112,7 @@
     sponsorsText:
       "Developing a race vehicle requires the support of companies and institutions committed to education and technological innovation. We thank our sponsors for making this project possible.",
     sponsorTitle: "Our Sponsors",
-    sponsorDescription: "Companies and institutions that believe in us.",
+    sponsorDescription: "Companies that believe in us.",
     logoSponsor: "Sponsor Logo",
     sponsorInstituciones: "Institutions that support us",
 
