@@ -116,6 +116,7 @@ export const es = {
     sponsorDescription: "Empresas que creen en nosotros.",
     logoSponsor: "Logo Sponsor",
     sponsorInstituciones: "Instituciones que nos acompañan",
+    
     // Contact
     uneteEquipo: "Unite al equipo",
     contactText:

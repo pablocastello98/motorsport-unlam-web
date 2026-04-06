@@ -48,6 +48,13 @@ export const SPONSORS: Sponsor[] = [
     alt: "SimScale — simulación CAE en la nube (CFD, FEA y térmica).",
     geoTip: "SimScale — simulación CAE en la nube (CFD, FEA y térmica) para validar diseño e ingeniería.",
   },
+    {
+    id: "zonaf1.ar",
+    logo: "zonaf1.ar.webp",
+    href: "https://www.instagram.com/zonaf1.ar",
+    alt: "ZonaF1 — Tienda de artículos de automovilismo.",
+    geoTip: "ZonaF1 — Tienda de artículos de automovilismo en impresiones 3D",
+  },
 ]
 
 export const INSTITUCIONES: instituciones[] = [
