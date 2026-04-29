@@ -2,7 +2,7 @@
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { DollarSign, Target } from "lucide-react"
+import { Cpu, DollarSign, Target } from "lucide-react"
 import { useEffect, useState } from "react"
 import { useLanguage } from "@/contexts/language-context"
 import { TeamMembersSection } from "@/components/team-members-section"
@@ -27,10 +27,11 @@ export default function TIPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="ti" subtitleKey="tiSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/suspension/motorsport-unlam-formula-sae-equipo-suspension-asesoramiento-tecnico-pirelli-autodromo.webp"
+            src="/images/equipos/ti/foto-equipo-ti.webp"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_40%]"
             altKey="ti"
           />
-          <TeamDescription icon={DollarSign} descriptionKeys={[
+          <TeamDescription icon={Cpu} descriptionKeys={[
              "tiDescription1",
               "tiDescription2",
               "tiDescription3",

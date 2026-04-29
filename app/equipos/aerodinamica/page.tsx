@@ -19,13 +19,14 @@ export default function AerodinamicaPage() {
 
   return (
     <div className="min-h-screen">
-      <Header />
+      <Header /> 
 
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <TeamHero titleKey="aerodinamica" subtitleKey="aerodinamicaSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/aerodinamica/motorsport-unlam-formula-sae-equipo-aerodinamica-taller.webp"
+            src="/images/equipos/aerodinamica/aerodinamica_foto.webp"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-[center_25%]"
             altKey="aerodinamica"
           />
           <TeamDescription
@@ -47,7 +48,7 @@ export default function AerodinamicaPage() {
               "aerodinamicaObj5",
             ]}
           />
-          <TeamMembersSection team="aerodinamica" teamDescKey="aerodinamicaTeamDesc" gridColsClass="md:grid-cols-3" />
+          <TeamMembersSection team="aerodinamica" teamDescKey="aerodinamicaTeamDesc" gridColsClass="md:grid-cols-2" />
         </div>
       </main>
 

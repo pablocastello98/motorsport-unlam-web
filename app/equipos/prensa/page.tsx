@@ -27,6 +27,7 @@ export default function prensaPage() {
           <TeamImage
             src="/images/equipos/prensa/motorsport-unlam-formula-sae-foto-grupal-equipo-autodromo-oscar-y-juan-galvez-buenos-aires.webp"
             altKey="Foto grupal de parte del equipo Motorsport UNLaM en el Autódromo Óscar y Juan Gálvez (Buenos Aires) durante una jornada de actividades del proyecto Fórmula SAE."
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={Settings} descriptionKeys={["prensaDescription"]} />
           <TeamObjectives

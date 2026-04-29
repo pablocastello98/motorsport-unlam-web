@@ -27,6 +27,7 @@ export default function redesPage() {
           <TeamImage
             src="/images/equipos/redes/motorsport-unlam-expoproyecto-foto-equipo-chasis-prototipo-pvc-universidad-nacional-de-la-matanza.webp"
             altKey="Parte del equipo Motorsport UNLaM posando junto al prototipo de chasis en PVC durante la ExpoProyecto de la Universidad Nacional de La Matanza (UNLaM)."
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={Settings} descriptionKeys={["redesDescription"]} />
           <TeamObjectives

@@ -24,7 +24,10 @@ export default function ComunicacionPage() {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <TeamHero titleKey="comunicacion" subtitleKey="comunicacionSubtitle" isVisible={isVisible} />
-          <TeamImage src="/social-media-content-creation-team-working-on-mark.jpg" altKey="comunicacion" />
+          <TeamImage src="/social-media-content-creation-team-working-on-mark.jpg" 
+          altKey="comunicacion" 
+          className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-center"
+          />
           <TeamDescription icon={Megaphone} descriptionKeys={["comunicacionDescription"]} />
           <TeamObjectives
             icon={Target}

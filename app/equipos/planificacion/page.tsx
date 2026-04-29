@@ -25,8 +25,9 @@ export default function PlanficacionPage() {
         <div className="container mx-auto px-4">
           <TeamHero titleKey="planificacion" subtitleKey="planificacionSubtitle" isVisible={isVisible} />
           <TeamImage
-            src="/images/equipos/suspension/motorsport-unlam-formula-sae-equipo-suspension-asesoramiento-tecnico-pirelli-autodromo.webp"
-            altKey="suspension"
+            src="/images/equipos/planificacion/PLANIF.webp"
+            altKey="planificacion"
+            className = "w-full aspect-[16/10] md:aspect-[16/8] object-cover object-top"
           />
           <TeamDescription icon={Settings} descriptionKeys={["planificacionDescription"]} />
           <TeamObjectives
