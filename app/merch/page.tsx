@@ -1,19 +1,24 @@
+"use client"
+
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ShoppingBag, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"
+import { ShoppingBag } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
 
 export default function MerchPage() {
+  const { t } = useLanguage()
+
   const secondaryProducts = [
     {
-      name: "Casco Oficial",
+      name: t("helmetName"),
       image: "/images/merch/helmet.png",
       price: "$--.---",
     },
     {
-      name: "Gorra del Equipo",
+      name: t("capName"),
       image: "/images/merch/cap.png",
       price: "$--.---",
     },
@@ -30,11 +35,11 @@ export default function MerchPage() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-              Apoya al Equipo: <br />
-              <span className="text-[#006A4E]">¡Llegó el Nuevo Merch Oficial!</span>
+              {t("merchPageTitle")}: <br />
+              <span className="text-[#006A4E]">{t("merchPageHeroTitle")}</span>
             </h1>
             <p className="text-xl text-gray-300">
-              Cada remera o accesorio que compres nos acerca más a la pista. Tu apoyo financia directamente la compra de materiales para lograr construir el vehículo.
+              {t("merchPageHeroText")}
             </p>
           </div>
         </div>
@@ -48,39 +53,38 @@ export default function MerchPage() {
               <div className="relative aspect-square bg-gray-100 rounded-2xl overflow-hidden group">
                 <Image
                   src="/images/merch/tshirt_front.png"
-                  alt="Remera Oficial Frente"
+                  alt={t("tshirtFrontAlt")}
                   fill
                   className="object-contain transition-opacity duration-300 group-hover:opacity-0"
                 />
                 <Image
                   src="/images/merch/tshirt_back.png"
-                  alt="Remera Oficial Dorso"
+                  alt={t("tshirtBackAlt")}
                   fill
                   className="object-contain absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                 />
               </div>
-              <p className="text-sm text-center text-gray-500">Pasa el mouse para ver el dorso</p>
+              <p className="text-sm text-center text-gray-500">{t("hoverToSeeBack")}</p>
             </div>
             
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-[#1c1c1c] mb-2">Remera Oficial Motorsport UNLaM</h2>
-                <p className="text-2xl font-semibold text-[#006A4E]">Lanzamiento 2026</p>
+                <h2 className="text-3xl font-bold text-[#1c1c1c] mb-2">{t("officialTshirtTitle")}</h2>
+                <p className="text-2xl font-semibold text-[#006A4E]">{t("launch2026")}</p>
               </div>
               <p className="text-gray-600 text-lg">
-                Nuestra remera oficial está diseñada con materiales de alta calidad para ofrecer máxima comodidad. 
-                Con los colores del equipo y un diseño inspirado en el automovilismo, es la forma perfecta de mostrar tu apoyo.
+                {t("tshirtDescription")}
               </p>
               <div className="pt-4">
                 {/* TODO: Insert Empretienda link here */}
                 <Button asChild size="lg" className="w-full sm:w-auto bg-[#006A4E] hover:bg-[#004d38] text-white text-lg py-6 px-8 rounded-full shadow-lg shadow-[#006A4E]/30 transition-all hover:scale-105">
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <ShoppingBag className="mr-2 h-5 w-5" />
-                    Comprar en Empretienda
+                    {t("buyOnEmpretienda")}
                   </a>
                 </Button>
                 <p className="text-xs text-gray-400 mt-3 text-center sm:text-left">
-                  Serás redirigido a nuestra tienda oficial en Empretienda para finalizar la compra.
+                  {t("redirectWarning")}
                 </p>
               </div>
             </div>
@@ -93,8 +97,8 @@ export default function MerchPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex justify-between items-end mb-10">
             <div>
-              <h2 className="text-3xl font-bold text-[#1c1c1c]">Accesorios Oficiales</h2>
-              <p className="text-gray-600 mt-2">Completa tu colección y sigue apoyando al equipo</p>
+              <h2 className="text-3xl font-bold text-[#1c1c1c]">{t("officialAccessories")}</h2>
+              <p className="text-gray-600 mt-2">{t("accessoriesDescription")}</p>
             </div>
           </div>
           
@@ -116,7 +120,7 @@ export default function MerchPage() {
                   {/* TODO: Insert Empretienda link here */}
                   <Button asChild size="sm" variant="outline" className="border-[#006A4E] text-[#006A4E] hover:bg-[#006A4E] hover:text-white">
                     <a href="#" target="_blank" rel="noopener noreferrer">
-                      Comprar
+                      {t("buyButton")}
                     </a>
                   </Button>
                 </div>
@@ -127,15 +131,15 @@ export default function MerchPage() {
                 <div className="relative aspect-square bg-gray-50 rounded-xl overflow-hidden mb-4 flex items-center justify-center">
                   <div className="text-gray-300 text-center px-4">
                     <ShoppingBag className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                    <p className="font-medium">Llavero Oficial</p>
-                    <p className="text-sm">Próximamente</p>
+                    <p className="font-medium">{t("keychainName")}</p>
+                    <p className="text-sm">{t("comingSoon")}</p>
                   </div>
                 </div>
-                <h3 className="font-bold text-lg text-[#1c1c1c]">Llavero Oficial</h3>
+                <h3 className="font-bold text-lg text-[#1c1c1c]">{t("keychainName")}</h3>
                 <div className="flex items-center justify-between mt-4">
-                  <span className="font-semibold text-gray-400">Próximamente</span>
+                  <span className="font-semibold text-gray-400">{t("comingSoon")}</span>
                   <Button disabled size="sm" variant="outline" className="border-gray-200 text-gray-400">
-                    Comprar
+                    {t("buyButton")}
                   </Button>
                 </div>
               </div>

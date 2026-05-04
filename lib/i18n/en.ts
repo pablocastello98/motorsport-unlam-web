@@ -1,4 +1,4 @@
-﻿export const en = {
+export const en = {
     // Carreras
     ingenieriaMecanica: "Mechanical Engineering",
     ingenieriaElectronica: "Electronic Engineering",
@@ -115,6 +115,9 @@
     sponsorDescription: "Companies that believe in us.",
     logoSponsor: "Sponsor Logo",
     sponsorInstituciones: "Institutions that support us",
+
+    // Merch
+    TituloMerch: "¡Llegó el Nuevo Merch Oficial!",
 
     // Contact
     uneteEquipo: "Join the team",
@@ -334,4 +337,30 @@
     planificacionObj4: "Optimize task organization and the allocation of team resources.",
     planificacionObj5: "Contribute to the strategic planning of the project for the Formula SAE competition.",
     planificacionTeamDesc: "The Planning team is composed of students who work on the strategic organization of the project, coordinating the work between technical areas and managing the progress of the vehicle development. Their role is essential to ensure steady progress and that all areas work in an integrated way toward the objectives of the project.",
+
+    // Merch Promo
+    merchPromoTitle: "The New Official Merch is Here!",
+    merchPromoDescription: "Support the team by wearing our colors. Every shirt or accessory you buy brings us closer to the track. Your support directly finances the construction of our vehicle.",
+    merchPromoButton: "See All Merch",
+    merchPromoAlt: "Official Motorsport UNLaM Merch",
+
+    // Merch Page
+    merchPageTitle: "Support the Team",
+    merchPageHeroTitle: "The New Official Merch is Here!",
+    merchPageHeroText: "Every shirt or accessory you buy brings us closer to the track. Your support directly finances the purchase of materials to build the vehicle.",
+    tshirtFrontAlt: "Official T-shirt Front",
+    tshirtBackAlt: "Official T-shirt Back",
+    hoverToSeeBack: "Hover to see the back",
+    officialTshirtTitle: "Official Motorsport UNLaM T-shirt",
+    launch2026: "2026 Launch",
+    tshirtDescription: "Our official t-shirt is designed with high-quality materials to offer maximum comfort. With the team's colors and a design inspired by motorsport, it's the perfect way to show your support.",
+    buyOnEmpretienda: "Buy on Empretienda",
+    redirectWarning: "You will be redirected to our official store on Empretienda to complete the purchase.",
+    officialAccessories: "Official Accessories",
+    accessoriesDescription: "Complete your collection and keep supporting the team",
+    helmetName: "Official Helmet",
+    capName: "Team Cap",
+    keychainName: "Official Keychain",
+    comingSoon: "Coming Soon",
+    buyButton: "Buy",
   } as const

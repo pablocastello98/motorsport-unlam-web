@@ -1,23 +1,28 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { useLanguage } from "@/contexts/language-context"
 
 export function MerchPromo() {
+  const { t } = useLanguage()
+
   return (
     <section className="py-20 bg-[#1c1c1c] text-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div className="space-y-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#006A4E]">
-              ¡Llegó el Nuevo Merch Oficial!
+              {t("merchPromoTitle")}
             </h2>
             <p className="text-lg text-gray-300 md:text-xl/relaxed">
-              Apoya al equipo llevando nuestros colores. Cada remera o accesorio que compres nos acerca más a la pista. Tu apoyo financia directamente la construcción de nuestro vehículo.
+              {t("merchPromoDescription")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-[#006A4E] text-white hover:bg-[#004d38] font-bold">
                 <Link href="/merch">
-                  Ver Todo el Merch
+                  {t("merchPromoButton")}
                 </Link>
               </Button>
             </div>
@@ -27,7 +32,7 @@ export function MerchPromo() {
             <div className="relative w-full h-full">
               <Image
                 src="/images/merch/tshirt_front.png"
-                alt="Merch Oficial Motorsport UNLaM"
+                alt={t("merchPromoAlt")}
                 fill
                 className="object-contain hover:scale-105 transition-transform duration-500"
               />

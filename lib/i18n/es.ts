@@ -335,4 +335,30 @@ export const es = {
     planificacionObj4: "Optimizar la organización de tareas y la asignación de recursos del equipo.", 
     planificacionObj5: "Contribuir a la planificación estratégica del proyecto de cara a la competencia de Formula SAE.", 
     planificacionTeamDesc: "El equipo de Planificación está conformado por estudiantes que trabajan en la organización estratégica del proyecto, coordinando el trabajo entre áreas técnicas y gestionando el avance del desarrollo del vehículo. Su rol es fundamental para asegurar que el equipo mantenga un progreso constante y que las distintas áreas trabajen de forma integrada hacia los objetivos del proyecto.", 
+
+    // Merch Promo
+    merchPromoTitle: "¡Llegó el Nuevo Merch Oficial!",
+    merchPromoDescription: "Apoya al equipo llevando nuestros colores. Cada remera o accesorio que compres nos acerca más a la pista. Tu apoyo financia directamente la construcción de nuestro vehículo.",
+    merchPromoButton: "Ver Todo el Merch",
+    merchPromoAlt: "Merch Oficial Motorsport UNLaM",
+
+    // Merch Page
+    merchPageTitle: "Apoya al Equipo",
+    merchPageHeroTitle: "¡Llegó el Nuevo Merch Oficial!",
+    merchPageHeroText: "Cada remera o accesorio que compres nos acerca más a la pista. Tu apoyo financia directamente la compra de materiales para lograr construir el vehículo.",
+    tshirtFrontAlt: "Remera Oficial Frente",
+    tshirtBackAlt: "Remera Oficial Dorso",
+    hoverToSeeBack: "Pasa el mouse para ver el dorso",
+    officialTshirtTitle: "Remera Oficial Motorsport UNLaM",
+    launch2026: "Lanzamiento 2026",
+    tshirtDescription: "Nuestra remera oficial está diseñada con materiales de alta calidad para ofrecer máxima comodidad. Con los colores del equipo y un diseño inspirado en el automovilismo, es la forma perfecta de mostrar tu apoyo.",
+    buyOnEmpretienda: "Comprar en Empretienda",
+    redirectWarning: "Serás redirigido a nuestra tienda oficial en Empretienda para finalizar la compra.",
+    officialAccessories: "Accesorios Oficiales",
+    accessoriesDescription: "Completa tu colección y sigue apoyando al equipo",
+    helmetName: "Casco Oficial",
+    capName: "Gorra del Equipo",
+    keychainName: "Llavero Oficial",
+    comingSoon: "Próximamente",
+    buyButton: "Comprar",
   } as const
