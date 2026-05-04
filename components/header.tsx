@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import type React from "react"
 
@@ -212,6 +212,13 @@ export function Header() {
               {t("patrocinadores")}
             </Link>
 
+            <Link
+              href="/merch"
+              className="text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors"
+            >
+              Merch
+            </Link>
+
             <Button
               size="sm"
               className="text-white"
@@ -366,6 +373,14 @@ export function Header() {
               onClick={(e) => handleSectionClick(e, "sponsors")}
             >
               {t("patrocinadores")}
+            </Link>
+
+            <Link
+              href="/merch"
+              className="block text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Merch Oficial
             </Link>
 
             <Button
