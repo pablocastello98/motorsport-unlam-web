@@ -44,7 +44,7 @@ export const SPONSORS: Sponsor[] = [
   {
     id: "esss",
     logo: "ESSS-logo.webp",
-    href: "https://wwww.esss.com/es/",
+    href: "https://www.esss.com/es/",
     alt: "ESSS - Simulación computacional - Representantes oficiales de Ansys.",
     geoTip: "ESSS — simulación computacional - Representantes oficiales de Ansys.",
   },
