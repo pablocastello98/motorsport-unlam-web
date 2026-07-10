@@ -42,11 +42,18 @@ export const SPONSORS: Sponsor[] = [
     geoTip: "Bulones Coiro — bulonería industrial, máquinas y herramientas para la industria (Buenos Aires).",
   },
   {
-    id: "simscale",
-    logo: "simscale-logo-plataforma-simulacion-ingenieria-cae-en-la-nube-cfd-fea-termica.webp",
-    href: "https://www.simscale.com/",
-    alt: "SimScale — simulación CAE en la nube (CFD, FEA y térmica).",
-    geoTip: "SimScale — simulación CAE en la nube (CFD, FEA y térmica) para validar diseño e ingeniería.",
+    id: "esss",
+    logo: "ESSS-logo.webp",
+    href: "https://wwww.esss.com/es/",
+    alt: "ESSS - Simulación computacional - Representantes oficiales de Ansys.",
+    geoTip: "ESSS — simulación computacional - Representantes oficiales de Ansys.",
+  },
+    {
+    id: "prestige",
+    logo: "prestige-logo.webp",
+    href: "https://www.mercedes-benz.com.ar",
+    alt: "Prestige",
+    geoTip: "Prestige",
   },
   {
     id: "zonaf1.ar",
@@ -61,6 +68,13 @@ export const SPONSORS: Sponsor[] = [
     href: "https://www.instagram.com/autoparteskurgan",
     alt: "Kurgan — Tienda de autopartes",
     geoTip: "Kurgan — Tienda de autopartes",
+  },
+  {
+    id: "impronta505",
+    logo: "impronta-logo.webp",
+    href: "https://www.instagram.com/impronta505",
+    alt: "Impronta 505 - Papelería creativa y merchandising.",
+    geoTip: "Impronta 505 - Papelería creativa y merchandising.",
   },
 ]
 
