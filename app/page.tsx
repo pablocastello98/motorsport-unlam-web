@@ -6,6 +6,7 @@ import { Sponsors } from "@/components/sponsors"
 import { Vehicle } from "@/components/vehicle"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+import { MerchPromo } from "@/components/merch-promo"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Objectives />
       <Sponsors />
       <Vehicle />
+      <MerchPromo /> 
       <Contact />
       <Footer />
     </main>
