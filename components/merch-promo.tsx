@@ -9,39 +9,55 @@ export function MerchPromo() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 bg-[#1c1c1c] text-white">
+    <section id="tienda"
+     className="py-20 bg-muted/30 text-white">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid gap-12 lg:grid-cols-2 items-center">
-          <div className="space-y-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#006A4E]">
-              {t("merchPromoTitle")}
-            </h2>
-            <p className="text-lg text-gray-300 md:text-xl/relaxed">
-              {t("merchPromoDescription")}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-[#006A4E] text-white hover:bg-[#004d38] font-bold">
-                <Link href="/merch">
-                  {t("merchPromoButton")}
-                </Link>
-              </Button>
+        
+        {/* RECUADRO ESTILO TARJETA */}
+        <div className="text-white rounded-2xl p-8 md:p-12 lg:p-16 relative overflow-hidden bg-[#006A4E]">
+          <div className="grid gap-12 lg:grid-cols-2 items-center relative z-10">
+            
+            {/* Columna Izquierda: Titulo, descripcion y boton (Centrados en mobile, izquierda en desktop) */}
+            <div className="flex flex-col items-center text-center lg:items-start lg:text-left space-y-6">
+              <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl text-white w-full">
+                {t("merchPromoTitle")}
+              </h2>
+              
+              <p className="text-lg text-white text-pretty md:text-xl/relaxed">
+                {t("merchPromoDescription")}
+              </p>
+              {/* Boton */}
+              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2 w-full">
+                <Button 
+                  asChild 
+                  size="lg" 
+                  className="bg-white text-[#006A4E] font-bold transition-all duration-150 ease-out hover:bg-gray-100 hover:scale-105 active:scale-95 shadow-lg"
+                >
+                  <Link href="https://motorsportunlam.tiendanegocio.com" target="_blank" rel="noopener noreferrer">
+                    {t("merchPromoButton")}
+                  </Link>
+                </Button>
+              </div>
             </div>
-          </div>
-          <div className="relative mx-auto aspect-square w-full max-w-[500px] overflow-hidden rounded-xl bg-white/5 p-8 shadow-2xl ring-1 ring-white/10 flex items-center justify-center">
-            {/* Promo image for merch */}
-            <div className="relative w-full h-full">
+
+            {/* Columna Derecha: Imagen directa sin recuadro */}
+            <Link 
+              href="https://motorsportunlam.tiendanegocio.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative mx-auto aspect-square w-full max-w-[400px] overflow-hidden rounded-2xl flex items-center justify-center cursor-pointer transition-transform duration-300 ease-out hover:scale-[1.03] will-change-transform"
+            >
               <Image
-                src="/images/merch/tshirt_front.png"
+                src="/images/merch/apoya.webp"
                 alt={t("merchPromoAlt")}
                 fill
-                className="object-contain hover:scale-105 transition-transform duration-500"
+                className="object-contain rounded-2xl"
               />
-            </div>
-            {/* Floating element for wow effect */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-[#006A4E]/20 blur-3xl" />
-            <div className="absolute -top-6 -left-6 w-32 h-32 rounded-full bg-white/10 blur-3xl" />
+            </Link>
+
           </div>
         </div>
+
       </div>
     </section>
   )

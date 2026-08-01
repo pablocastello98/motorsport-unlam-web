@@ -213,10 +213,11 @@ export function Header() {
             </Link>
 
             <Link
-              href="/merch"
+              href="/Tienda"
               className="text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors"
+              onClick={(e) => handleSectionClick(e, "tienda")}
             >
-              Merch
+              Tienda
             </Link>
 
             <Button
@@ -376,11 +377,11 @@ export function Header() {
             </Link>
 
             <Link
-              href="/merch"
+              href="/Tienda"
               className="block text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors py-2"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={(e) => handleSectionClick(e, "tienda")}
             >
-              Merch Oficial
+              Tienda
             </Link>
 
             <Button

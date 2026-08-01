@@ -340,27 +340,7 @@ export const en = {
 
     // Merch Promo
     merchPromoTitle: "The New Official Merch is Here!",
-    merchPromoDescription: "Support the team by wearing our colors. Every shirt or accessory you buy brings us closer to the track. Your support directly finances the construction of our vehicle.",
-    merchPromoButton: "See All Merch",
+    merchPromoDescription: "Support the team by wearing our colors. Every purchase brings us closer to the track. Your support directly funds the construction of our race car. Join us and be part of this story!",
+    merchPromoButton: "Explore Store",
     merchPromoAlt: "Official Motorsport UNLaM Merch",
-
-    // Merch Page
-    merchPageTitle: "Support the Team",
-    merchPageHeroTitle: "The New Official Merch is Here!",
-    merchPageHeroText: "Every shirt or accessory you buy brings us closer to the track. Your support directly finances the purchase of materials to build the vehicle.",
-    tshirtFrontAlt: "Official T-shirt Front",
-    tshirtBackAlt: "Official T-shirt Back",
-    hoverToSeeBack: "Hover to see the back",
-    officialTshirtTitle: "Official Motorsport UNLaM T-shirt",
-    launch2026: "2026 Launch",
-    tshirtDescription: "Our official t-shirt is designed with high-quality materials to offer maximum comfort. With the team's colors and a design inspired by motorsport, it's the perfect way to show your support.",
-    buyOnEmpretienda: "Buy on Empretienda",
-    redirectWarning: "You will be redirected to our official store on Empretienda to complete the purchase.",
-    officialAccessories: "Official Accessories",
-    accessoriesDescription: "Complete your collection and keep supporting the team",
-    helmetName: "Official Helmet",
-    capName: "Team Cap",
-    keychainName: "Official Keychain",
-    comingSoon: "Coming Soon",
-    buyButton: "Buy",
   } as const

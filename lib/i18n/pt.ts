@@ -337,27 +337,8 @@ export const pt = {
 
   // Merch Promo
   merchPromoTitle: "O Novo Merch Oficial Chegou!",
-  merchPromoDescription: "Apoie a equipe vestindo nossas cores. Cada camiseta ou acessório que você compra nos aproxima da pista. Seu apoio financia diretamente a construção do nosso veículo.",
-  merchPromoButton: "Ver Todo o Merch",
+  merchPromoDescription: "Apoie a equipe vestindo nossas cores. Cada compra nos aproxima da pista. Seu apoio financia diretamente a construção do nosso carro de competição. Venha fazer parte desta história!",
+  merchPromoButton: "Explorar Loja",
   merchPromoAlt: "Merch Oficial Motorsport UNLaM",
 
-  // Merch Page
-  merchPageTitle: "Apoie a equipe",
-  merchPageHeroTitle: "Os novos produtos oficiais chegaram!",
-  merchPageHeroText: "Cada camiseta ou acessório que você compra nos aproxima um passo mais da pista. Seu apoio financia diretamente a compra de materiais para construir o veículo.",
-  tshirtFrontAlt: "Frente da camiseta oficial",
-  tshirtBackAlt: "Camisa oficial traseira",
-  hoverToSeeBack: "Passe o cursor do mouse para ver a parte de trás.",
-  officialTshirtTitle: "Camiseta oficial da UNLaM Motorsport",
-  launch2026: "Lançamento em 2026",
-  tshirtDescription: "Nossa camisa oficial é confeccionada com materiais de alta qualidade para máximo conforto. Com as cores do time e um design inspirado no automobilismo, é a maneira perfeita de demonstrar seu apoio.",
-  buyOnEmpretienda: "Compre na Empretienda",
-  redirectWarning: "Você será redirecionado para nossa loja oficial na Empretienda para concluir sua compra.",
-  officialAccessories: "Acessórios Oficiais",
-  accessoriesDescription: "Complete sua coleção e continue apoiando a equipe.",
-  helmetName: "Capacete Oficial",
-  capName: "Limite da equipe",
-  keychainName: "Chaveiro Oficial",
-  comingSoon: "Em breve",
-  buyButton: "Comprar",
 } as const
