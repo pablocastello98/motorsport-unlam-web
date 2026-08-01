@@ -335,4 +335,11 @@ export const es = {
     planificacionObj4: "Optimizar la organización de tareas y la asignación de recursos del equipo.", 
     planificacionObj5: "Contribuir a la planificación estratégica del proyecto de cara a la competencia de Formula SAE.", 
     planificacionTeamDesc: "El equipo de Planificación está conformado por estudiantes que trabajan en la organización estratégica del proyecto, coordinando el trabajo entre áreas técnicas y gestionando el avance del desarrollo del vehículo. Su rol es fundamental para asegurar que el equipo mantenga un progreso constante y que las distintas áreas trabajen de forma integrada hacia los objetivos del proyecto.", 
+
+    // Merch Promo
+    merchPromoTitle: "¡Llegó nuestra Tienda Oficial!",
+    merchPromoDescription: "Apoyá al equipo llevando nuestros colores. Cada compra nos acerca más a la pista. Tu apoyo financia directamente la construcción de nuestro monoplaza. Animate a ser parte de esta historia!",
+    merchPromoButton: "Explorar Tienda",
+    merchPromoAlt: "Merch Oficial Motorsport UNLaM",
+
   } as const

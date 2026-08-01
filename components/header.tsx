@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import type React from "react"
 
@@ -212,6 +212,14 @@ export function Header() {
               {t("patrocinadores")}
             </Link>
 
+            <Link
+              href="/Tienda"
+              className="text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors"
+              onClick={(e) => handleSectionClick(e, "tienda")}
+            >
+              Tienda
+            </Link>
+
             <Button
               size="sm"
               className="text-white"
@@ -366,6 +374,14 @@ export function Header() {
               onClick={(e) => handleSectionClick(e, "sponsors")}
             >
               {t("patrocinadores")}
+            </Link>
+
+            <Link
+              href="/Tienda"
+              className="block text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors py-2"
+              onClick={(e) => handleSectionClick(e, "tienda")}
+            >
+              Tienda
             </Link>
 
             <Button

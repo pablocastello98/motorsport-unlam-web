@@ -1,4 +1,4 @@
-﻿export const en = {
+export const en = {
     // Carreras
     ingenieriaMecanica: "Mechanical Engineering",
     ingenieriaElectronica: "Electronic Engineering",
@@ -115,6 +115,9 @@
     sponsorDescription: "Companies that believe in us.",
     logoSponsor: "Sponsor Logo",
     sponsorInstituciones: "Institutions that support us",
+
+    // Merch
+    TituloMerch: "¡Llegó el Nuevo Merch Oficial!",
 
     // Contact
     uneteEquipo: "Join the team",
@@ -334,4 +337,10 @@
     planificacionObj4: "Optimize task organization and the allocation of team resources.",
     planificacionObj5: "Contribute to the strategic planning of the project for the Formula SAE competition.",
     planificacionTeamDesc: "The Planning team is composed of students who work on the strategic organization of the project, coordinating the work between technical areas and managing the progress of the vehicle development. Their role is essential to ensure steady progress and that all areas work in an integrated way toward the objectives of the project.",
+
+    // Merch Promo
+    merchPromoTitle: "The New Official Merch is Here!",
+    merchPromoDescription: "Support the team by wearing our colors. Every purchase brings us closer to the track. Your support directly funds the construction of our race car. Join us and be part of this story!",
+    merchPromoButton: "Explore Store",
+    merchPromoAlt: "Official Motorsport UNLaM Merch",
   } as const
