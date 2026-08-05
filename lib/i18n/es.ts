@@ -287,6 +287,7 @@ export const es = {
     contactoUbicacion: "San Justo, Buenos Aires",
     seguinosTitle: "Seguinos",
     copyright: "© 2025 Motorsport UNLaM. Todos los derechos reservados.",
+    merchpromoLink: "Tienda",
 
     // Teams
     grupoIngenieria: "Ingeniería",
@@ -455,4 +456,6 @@ export const es = {
     preguntas8Pregunta: "¿Qué áreas forman parte del equipo?",
     preguntas8Respuesta: "El equipo está conformado por estudiantes de distintas disciplinas, incluyendo ingenierías, comunicación y economía. Cada área cumple un rol fundamental, desde el desarrollo técnico del monoplaza hasta la gestión del proyecto, la difusión y la relación con patrocinadores.",
 
+    // Boton volver al inicio
+    volverInicio: "Volver al inicio",
   } as const

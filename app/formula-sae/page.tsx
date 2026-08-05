@@ -44,9 +44,9 @@ export default function FormulaSaePage() {
               size="sm"
               className="border-[#006A4E]/30 text-[#006A4E] hover:bg-[#006A4E]/10 font-medium rounded-lg gap-2"
             >
-              <Link href="/">
+              <Link href="/#objectives">
                 <ArrowLeft className="w-4 h-4" />
-                <span>Volver al inicio</span>
+                <span>{t("volverInicio")}</span>
               </Link>
             </Button>
           </div>

@@ -40,14 +40,35 @@ export function Footer() {
                   {t("contactoLink")}
                 </Link>
               </li>
+              <li>
+                <Link href="#tienda" className="text-white/80 hover:text-white transition-colors">
+                  {t("merchpromoLink")}
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-4">{t("contactoTitle")}</h4>
             <ul className="space-y-2 text-sm text-white/80">
-              <li>{t("contactoEmail")}</li>
-              <li>{t("contactoUniversidad")}</li>
+              <li>
+                <a 
+                  href="mailto:motorsport@unlam.edu.ar" 
+                  className="hover:text-white transition-colors"
+                >
+                  {t("contactoEmail")}
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://maps.app.goo.gl/rsb8aQn8nRLWuYY17" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-white transition-colors underline decoration-white/40 underline-offset-4 hover:decoration-white"
+                >
+                  {t("contactoUniversidad")}
+                </a>
+              </li>
               <li>{t("contactoUbicacion")}</li>
             </ul>
           </div>
