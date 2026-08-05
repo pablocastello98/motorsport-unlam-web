@@ -287,6 +287,7 @@ export const en = {
     contactoUbicacion: "San Justo, Buenos Aires",
     seguinosTitle: "Follow us",
     copyright: "© 2025 Motorsport UNLaM. All rights reserved.",
+    merchpromoLink: "Store",
 
     // Teams
     grupoIngenieria: "Engineering",
@@ -449,4 +450,6 @@ export const en = {
     preguntas8Pregunta: "What areas make up the team?",
     preguntas8Respuesta: "The team is made up of students from different disciplines, including engineering, communication, and economics. Every area plays a key role, from the technical development of the race car to project management, outreach, and sponsor relations.",
     
+  // Boton volver al inicio
+  volverInicio: "Back to Home",
 } as const
