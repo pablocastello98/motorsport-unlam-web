@@ -76,9 +76,102 @@ export const es = {
     objetivo4Text: "Generar redes con instituciones, empresas y sponsors que potencien el proyecto.",
 
     // Formula SAE
-    formulaSAE: "¿Qué es la Formula SAE?",
+    formulaSAE: "Fórmula SAE",
     formulaText:
       "Formula SAE es la competencia de ingeniería más prestigiosa del mundo para estudiantes universitarios. Los equipos deben diseñar, construir y competir con un vehículo tipo fórmula, siendo evaluados no solo en pista sino también en presentaciones técnicas, análisis de costos y planes de negocio.",
+    saberMas: "Saber más",
+
+    // Formula SAE - Pagina
+    fsaeTitle: "¿Qué es la Fórmula SAE?",
+    fsaeDescription: "La competencia universitaria donde la ingeniería cobra vida. Fórmula SAE es una competencia internacional de diseño e ingeniería organizada por SAE International, que desafía a estudiantes universitarios a desarrollar un monoplaza de competición, enfrentando desafíos técnicos, económicos y de gestión similares a los de la industria automotriz.",
+    fsaelink: "Sitio Oficial FSAE Events",
+
+    // seccion-desafio
+    fsaeDesafioTitle: "Un desafío de ingeniería completo",
+    fsaeDesafioText: "A diferencia de otras competencias, en Fórmula SAE no gana únicamente el auto más rápido. Cada equipo simula el funcionamiento de una empresa automotriz real, integrando ingeniería, fabricación, gestión y negocios.",
+    fsaeDesafioText2: "Durante más de un año, los estudiantes diseñan, fabrican y validan un monoplaza, mientras gestionan el presupuesto, consiguen patrocinadores y planifican el proyecto. El resultado se evalúa por el desempeño del vehículo y la calidad de sus decisiones técnicas y de gestión.",
+    fsaeDesafioText3: "Cada proyecto es evaluado por ingenieros, especialistas y referentes de la industria, bajo criterios profesionales de ingeniería y desarrollo automotriz.",
+    fsaeDesafioFoto: "Taller de desarrollo — MotorSport UNLaM",    
+    
+    // seccion-interdisciplinaria
+    fsaeInterTitle: "100% interdisciplinario",
+    fsaeInterText: "Crear un monoplaza competitivo requiere el trabajo coordinado de diversas áreas del conocimiento, integrando ingeniería, gestión, comunicación y diseño.",
+    fsaeInterElectronica: "Electrónica & Software",
+    fsaeInterElectronicaText: "Sistema de alto voltaje, BMS, electrónica embarcada, telemetría y desarrollo de software",
+    fsaeInterMecanica: "Mecánica & Chasis",
+    fsaeInterMecanicaText: "Chasis tubular, suspensión, dirección, aerodinámica y transmisión.",
+    fsaeInterGestion: "Gestión & Comunicación",
+    fsaeInterGestionText: "Patrocinadores, análisis de costos, planificación del proyecto y difusión institucional.",
+    fsaeInterTalentos: "Formación de Talentos",
+    fsaeInterTalentosText: "Resolución de problemas, liderazgo, trabajo en equipo y gestión de proyectos.",
+    
+    // seccion-categorias
+    fsaeCategoriasTitle: "Categorías",
+    fsaeCategoriasCombustion: "Combustión (IC)",
+    fsaeCategoriasCombustionText: "Monoplazas impulsados por motores de combustión interna de hasta 710 cm³.",
+    fsaeCategoriasEleccion: "Acá competimos!",
+    fsaeCategoriasElectrico: "Eléctrico (EV)",
+    fsaeCategoriasElectricoText: "Monoplazas propulsados exclusivamente por motores eléctricos y un sistema de baterías de alto voltaje. Integran electrónica de potencia, software embebido y gestión de energía.",
+    fsaeCategoriasAutonomo: "Autónomo (DV)",
+    fsaeCategoriasAutonomoText: "Vehículos capaces de recorrer un circuito de forma autónoma mediante sensores, visión por computadora y algoritmos de control.",
+
+    // seccion-cronograma
+    fsaeCronogramaTitle: "¿Cómo funciona la competencia?",
+    fsaeCronogramaText: "Desde la idea conceptual hasta poner el auto en la parrilla de salida.",
+    fsaeCronogramaDiseno: "Diseñar",
+    fsaeCronogramaDisenoText: "Diseño CAD, simulaciones FEA, cálculos y arquitectura general.",
+    fsaeCronogramaConstruir: "Construir",
+    fsaeCronogramaConstruirText: "Mecanizado, soldadura y ensamblado del monoplaza.",
+    fsaeCronogramaValidar: "Validar",
+    fsaeCronogramaValidarText: "Pruebas de banco, validación de sistemas y ensayos en pista.",
+    fsaeCronogramaCompetir: "Competir",
+    fsaeCronogramaCompetirText: "Evaluaciones estáticas ante jueces y pruebas dinámicas en pista.",
+    fsaeCronogramaInspeccion: "Inspección Técnica y de Seguridad",
+    fsaeCronogramaInspeccionText: "Antes de salir a pista, cada vehículo debe superar una serie de inspecciones obligatorias que verifican el cumplimiento del reglamento y los estándares de seguridad. Entre ellas se incluyen la prueba de frenado, la prueba de inclinación de 60° para comprobar la ausencia de fugas de fluidos, Prueba de Lluvia (en la categoría eléctrica) y la verificación integral de seguridad del vehículo y del piloto.",
+
+    // seccion-puntuacion
+    fsaePuntuacionTitle: "Sistema de Puntuación",
+    fsaePuntuacionText: "El desempeño total del equipo se mide dividiendo el puntaje entre eventos estáticos y dinámicos.",
+    fsaePuntuacionEstatico: "Eventos Estáticos",
+    fsaePuntuacionDiseno: "Diseño",
+    fsaePuntuacionDisenoText: "Defensa del diseño técnico y de las decisiones de ingeniería ante un panel de jueces.",
+    fsaePuntuacionCostos: "Costos y Manufactura",
+    fsaePuntuacionCostosText: "Evaluación y auditoría de los costos de fabricación y de los procesos de producción del vehículo.",
+    fsaePuntuacionNegocios: "Presentación de Negocios",
+    fsaePuntuacionNegociosText: "Presentación del proyecto como una propuesta de negocio, evaluando su viabilidad técnica y comercial.",
+    fsaePuntuacionDinamico: "Eventos Dinámicos",
+    fsaePuntuacionResistencia: "Endurance (Resistencia)",
+    fsaePuntuacionResistenciaText: "Prueba de resistencia que evalúa la fiabilidad y el rendimiento del vehículo.",
+    fsaePuntuacionEficiencia: "Eficiencia",
+    fsaePuntuacionEficienciaText: "Evaluación de la eficiencia energética o del consumo durante la prueba de resistencia, según la categoría.",
+    fsaePuntuacionAutocross: "Autocross",
+    fsaePuntuacionAutocrossText: "Vuelta cronometrada para evaluar el rendimiento y la maniobrabilidad del vehículo.",
+    fsaePuntuacionAceleracion: "Aceleración",
+    fsaePuntuacionAceleracionText: "Prueba de aceleración en línea recta para medir la capacidad de respuesta del monoplaza.",    fsaePuntuacionSkidpad: "Skidpad",
+    fsaePuntuacionAgarre: "Agarre Lateral",
+    fsaePuntuacionAgarreText: "Recorrido en forma de ocho para evaluar el agarre lateral y el comportamiento dinámico del vehículo.",
+    
+    // seccion-eleccion-electrica
+    fsaeEleccionTitle: "¿Por qué elegimos la categoría eléctrica?",
+    fsaeEleccionText: "En MotorSport UNLaM creemos que la innovación es el único camino hacia la movilidad del futuro. Desarrollamos un monoplaza 100% eléctrico apostando por las tecnologías que hoy transforman la industria global:",
+    fsaeEleccionPunto1: "Sistemas de acumuladores de Alto Voltaje (HV).",
+    fsaeEleccionPunto2: "Electrónica de potencia e inversores trifásicos.",
+    fsaeEleccionPunto3: "Adquisición de datos y software embebido de control.",
+    fsaeEleccionPunto4: "Puente directo con la industria",
+    fsaeEleccionPunto4Text: "Las multinacionales automotrices valoran a los graduados con experiencia en Fórmula SAE por encima de la media. Los integrantes de estos equipos adquieren habilidades reales en gestión de proyectos, resolución de problemas bajo presión y trabajo colaborativo internacional.",
+
+    // seccion-metricas
+    fsaeMetricasTitle: "Nuestro Objetivo",
+    fsaeMetricasText: "Trabajamos para representar a la Universidad Nacional de La Matanza y a la Argentina en Fórmula SAE Brasil 2027.",
+    fsaeMetricasUniversidades: "Universidades de todo el mundo",
+    fsaeMetricasEstudiantes: "Miles de estudiantes al año",
+    fsaeMetricasPuntos: "Puntos en juego",
+    fsaeMetricasBrasil: "Objetivo Brasil",
+
+    //seccion-contactanos
+    fsaeContactanosTitle: "Sumate!",
+    fsaeContactanosText: "Seguí de cerca la evolución del primer prototipo de competición 100% eléctrico de la UNLaM.",
+    fsaeContactanosButton: "Contactar al equipo",
 
     // Vehicle
     elVehiculo: "El Vehículo",
@@ -341,5 +434,25 @@ export const es = {
     merchPromoDescription: "Apoyá al equipo llevando nuestros colores. Cada compra nos acerca más a la pista. Tu apoyo financia directamente la construcción de nuestro monoplaza. Animate a ser parte de esta historia!",
     merchPromoButton: "Explorar Tienda",
     merchPromoAlt: "Merch Oficial Motorsport UNLaM",
+
+    // Preguntas Frecuentes
+    preguntasTitle: "Preguntas Frecuentes",
+    preguntasSubtitle: "Respondemos tus dudas sobre el equipo y la competencia Formula SAE.",
+    preguntas1Pregunta: "¿Cualquier estudiante de la UNLaM puede formar parte del equipo?",
+    preguntas1Respuesta: "Sí, todos los y las estudiantes regulares de la Universidad Nacional de La Matanza (UNLaM) pueden postularse, sin importar la carrera o el año que estén cursando. Lo más importante es el compromiso y las ganas de aprender.",
+    preguntas2Pregunta: "¿El auto es conducido por pilotos profesionales?",
+    preguntas2Respuesta: "No. Los pilotos son estudiantes que forman parte del equipo y son seleccionados según su desempeño, preparación y capacidad para conducir el monoplaza de forma segura durante la competencia.",
+    preguntas3Pregunta: "¿Es necesario tener conocimientos previos de mecánica o electricidad?",
+    preguntas3Respuesta: "No es excluyente. Valoramos principalmente las ganas de aprender, la iniciativa y el compromiso con el proyecto. El equipo fomenta el aprendizaje colaborativo, donde los integrantes con más experiencia acompañan y comparten sus conocimientos con las nuevas incorporaciones.",
+    preguntas4Pregunta: "¿Cómo se financia el equipo?",
+    preguntas4Respuesta: "El equipo se financia a través de sponsors, aportes en especie, donaciones y la venta de merchandising oficial. Cada contribución ayuda a cubrir los costos de desarrollo, fabricación y participación en la competencia.",
+    preguntas5Pregunta: "¿Qué beneficios obtienen los estudiantes al participar en el equipo?",
+    preguntas5Respuesta: "Los estudiantes adquieren experiencia práctica en desarrollo de proyectos, trabajo en equipo, gestión y comunicación profesional. Además, tienen la oportunidad de representar a la UNLaM en competencias nacionales e internacionales, ampliar su red de contactos y desarrollar habilidades clave para su futuro profesional.",
+    preguntas6Pregunta: "¿Cómo puedo apoyar al equipo?",
+    preguntas6Respuesta: "Podés acompañar el proyecto formando parte del equipo, colaborando como patrocinador, realizando una donación o adquiriendo merchandising oficial. Cada aporte nos ayuda a avanzar en el desarrollo del monoplaza y acercarnos al objetivo de competir en Fórmula SAE Brasil 2027.",
+    preguntas7Pregunta: "¿El equipo está abierto a nuevos integrantes?",
+    preguntas7Respuesta: "Sí, el equipo está siempre abierto a recibir nuevos integrantes. Se realizan convocatorias periódicas para que estudiantes de la UNLaM puedan postularse y sumarse al proyecto, independientemente de su carrera o año de estudio.",
+    preguntas8Pregunta: "¿Qué áreas forman parte del equipo?",
+    preguntas8Respuesta: "El equipo está conformado por estudiantes de distintas disciplinas, incluyendo ingenierías, comunicación y economía. Cada área cumple un rol fundamental, desde el desarrollo técnico del monoplaza hasta la gestión del proyecto, la difusión y la relación con patrocinadores.",
 
   } as const
