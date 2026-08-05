@@ -75,9 +75,93 @@ export const pt = {
   objetivo4Text: "Gerar redes com instituições, empresas e patrocinadores que fortaleçam o projeto.",
 
   // Formula SAE
-  formulaSAE: "O que é a Fórmula SAE?",
+  formulaSAE: "Fórmula SAE",
   formulaText:
     "A Fórmula SAE é a competição de engenharia mais prestigiada do mundo para estudantes universitários. As equipes devem projetar, construir e competir com um veículo tipo fórmula, sendo avaliadas não apenas na pista, mas também em apresentações técnicas, análises de custos e planos de negócios.",
+  saberMas: "Saiba mais",
+
+  // Formula SAE - Pagina
+  fsaeTitle: "O que é a Fórmula SAE?",
+  fsaeDescription: "A competição universitária onde a engenharia ganha vida. A Fórmula SAE é uma competição internacional de projeto e engenharia organizada pela SAE International, que desafia estudantes universitários a desenvolver um monoposto de competição, enfrentando desafios técnicos, econômicos e de gestão semelhantes aos da indústria automotiva.",
+  fsaelink: "Site Oficial da FSAE Events",
+
+  // seccion-desafio
+  fsaeDesafioTitle: "Um Desafio Completo de Engenharia",
+  fsaeDesafioText: "Diferentemente de outras competições, na Fórmula SAE não vence apenas o carro mais rápido. Cada equipe funciona como uma empresa automotiva real, integrando engenharia, manufatura, gestão e negócios.",
+  fsaeDesafioText2: "Ao longo de mais de um ano, os estudantes projetam, fabricam e validam um monoposto de competição, enquanto gerenciam o orçamento, conquistam patrocinadores e planejam todo o projeto. O resultado é avaliado tanto pelo desempenho do veículo quanto pela qualidade das decisões técnicas e de gestão da equipe.",
+  fsaeDesafioText3: "Cada projeto é avaliado por engenheiros, especialistas e profissionais da indústria, seguindo os mesmos padrões de engenharia e desenvolvimento automotivo utilizados no ambiente profissional.",
+  fsaeDesafioFoto: "Oficina de Desenvolvimento — MotorSport UNLaM",
+
+  // seccion-interdisciplinaria
+  fsaeInterTitle: "100% Interdisciplinar",
+  fsaeInterText: "Construir um monoposto competitivo exige o trabalho coordenado de diversas áreas do conhecimento, integrando engenharia, gestão, comunicação e design.",
+  fsaeInterElectronica: "Eletrônica & Software",
+  fsaeInterElectronicaText: "Sistema de alta tensão, Sistema de Gerenciamento de Bateria (BMS), eletrônica embarcada, telemetria e desenvolvimento de software.",
+  fsaeInterMecanica: "Engenharia Mecânica & Chassi",
+  fsaeInterMecanicaText: "Chassi tubular, suspensão, direção, aerodinâmica e transmissão.",
+  fsaeInterGestion: "Gestão & Comunicação",
+  fsaeInterGestionText: "Patrocínios, análise de custos, planejamento do projeto e comunicação institucional.",
+  fsaeInterTalentos: "Desenvolvimento Profissional",
+  fsaeInterTalentosText: "Resolução de problemas, liderança, trabalho em equipe e gestão de projetos.",
+
+  // seccion-categorias
+  fsaeCronogramaTitle: "Como funciona a competição?",
+  fsaeCronogramaText: "Da ideia conceitual até colocar o carro no grid de largada.",
+  fsaeCronogramaDiseno: "Projetar",
+  fsaeCronogramaDisenoText: "Projeto em CAD, simulações FEA, cálculos e arquitetura geral do veículo.",
+  fsaeCronogramaConstruir: "Construir",
+  fsaeCronogramaConstruirText: "Usinagem, soldagem e montagem do monoposto.",
+  fsaeCronogramaValidar: "Validar",
+  fsaeCronogramaValidarText: "Testes de bancada, validação dos sistemas e testes em pista.",
+  fsaeCronogramaCompetir: "Competir",
+  fsaeCronogramaCompetirText: "Avaliações estáticas diante dos juízes e provas dinâmicas na pista.",
+  fsaeCronogramaInspeccion: "Inspeção Técnica e de Segurança",
+  fsaeCronogramaInspeccionText: "Antes de entrar na pista, cada veículo deve passar por uma série de inspeções obrigatórias para verificar a conformidade com o regulamento e os padrões de segurança. Entre elas estão o teste de frenagem, o teste de inclinação de 60° para comprovar a ausência de vazamentos de fluidos, o Teste de Chuva (na categoria Elétrica) e a verificação completa da segurança do veículo e do piloto.",
+  
+  // seccion-puntuacion
+  fsaePuntuacionTitle: "Sistema de Pontuação",
+  fsaePuntuacionText: "O desempenho geral da equipe é medido pela divisão da pontuação entre provas estáticas e dinâmicas.",
+  fsaePuntuacionEstatico: "Provas Estáticas",
+  fsaePuntuacionDiseno: "Projeto",
+  fsaePuntuacionDisenoText: "Defesa do projeto técnico e das decisões de engenharia perante um painel de juízes.",
+  fsaePuntuacionCostos: "Custos e Manufatura",
+  fsaePuntuacionCostosText: "Avaliação e auditoria dos custos de fabricação e dos processos de produção do veículo.",
+  fsaePuntuacionNegocios: "Apresentação de Negócios",
+  fsaePuntuacionNegociosText: "Apresentação do projeto como uma proposta de negócio, avaliando sua viabilidade técnica e comercial.",
+  fsaePuntuacionDinamico: "Provas Dinâmicas",
+  fsaePuntuacionResistencia: "Endurance",
+  fsaePuntuacionResistenciaText: "Prova de resistência que avalia a confiabilidade e o desempenho do veículo.",
+  fsaePuntuacionEficiencia: "Eficiência",
+  fsaePuntuacionEficienciaText: "Avaliação da eficiência energética ou do consumo durante a prova de Endurance, conforme a categoria.",
+  fsaePuntuacionAutocross: "Autocross",
+  fsaePuntuacionAutocrossText: "Volta cronometrada para avaliar o desempenho e a dirigibilidade do veículo.",
+  fsaePuntuacionAceleracion: "Aceleração",
+  fsaePuntuacionAceleracionText: "Prova de aceleração em linha reta para medir a capacidade de resposta do monoposto.",
+  fsaePuntuacionSkidpad: "Skidpad",
+  fsaePuntuacionAgarre: "Aderência Lateral",
+  fsaePuntuacionAgarreText: "Percurso em forma de oito para avaliar a aderência lateral e o comportamento dinâmico do veículo.",
+     
+  // seccion-eleccion-electrica
+  fsaeEleccionTitle: "Por que escolhemos a categoria Elétrica?",
+  fsaeEleccionText: "Na MotorSport UNLaM, acreditamos que a inovação é o único caminho para a mobilidade do futuro. Estamos desenvolvendo um monoposto 100% elétrico, apostando nas tecnologias que hoje transformam a indústria automotiva global:",
+  fsaeEleccionPunto1: "Sistemas de acumuladores de Alta Tensão (HV).",
+  fsaeEleccionPunto2: "Eletrônica de potência e inversores trifásicos.",
+  fsaeEleccionPunto3: "Aquisição de dados e software embarcado de controle.",
+  fsaeEleccionPunto4: "Uma ponte direta com a indústria",
+  fsaeEleccionPunto4Text: "As montadoras multinacionais valorizam profissionais com experiência na Fórmula SAE acima da média. Os integrantes dessas equipes desenvolvem habilidades reais em gestão de projetos, resolução de problemas sob pressão e colaboração internacional.",
+  
+  // seccion-metricas
+  fsaeMetricasTitle: "Nosso Objetivo",
+  fsaeMetricasText: "Trabalhamos para representar a Universidade Nacional de La Matanza e a Argentina na Fórmula SAE Brasil 2027.",
+  fsaeMetricasUniversidades: "Universidades de todo o mundo",
+  fsaeMetricasEstudiantes: "Milhares de estudantes por ano",
+  fsaeMetricasPuntos: "Pontos em disputa",
+  fsaeMetricasBrasil: "Objetivo Brasil 2027",
+  
+  //seccion-contactanos
+  fsaeContactanosTitle: "Junte-se a Nós!",
+  fsaeContactanosText: "Acompanhe de perto o desenvolvimento do primeiro protótipo de competição 100% elétrico da UNLaM.",
+  fsaeContactanosButton: "Entrar em Contato com a Equipe",
 
   // Vehicle
   elVehiculo: "O Veículo",
@@ -340,5 +424,25 @@ export const pt = {
   merchPromoDescription: "Apoie a equipe vestindo nossas cores. Cada compra nos aproxima da pista. Seu apoio financia diretamente a construção do nosso carro de competição. Venha fazer parte desta história!",
   merchPromoButton: "Explorar Loja",
   merchPromoAlt: "Merch Oficial Motorsport UNLaM",
+
+  // Preguntas Frecuentes
+  preguntasTitle: "Perguntas Frequentes",
+  preguntasSubtitle: "Respondemos às suas dúvidas sobre a equipe e a competição Fórmula SAE.",
+  preguntas1Pregunta: "Qualquer estudante da UNLaM pode fazer parte da equipe?",
+  preguntas1Respuesta: "Sim. Todos os estudantes regularmente matriculados na Universidade Nacional de La Matanza (UNLaM) podem se candidatar, independentemente do curso ou do ano em que estejam. O mais importante é o compromisso e a vontade de aprender.",
+  preguntas2Pregunta: "O carro é pilotado por pilotos profissionais?",
+  preguntas2Respuesta: "Não. Os pilotos são estudantes que fazem parte da equipe e são selecionados com base em seu desempenho, preparação e capacidade de conduzir o monoposto com segurança durante a competição.",
+  preguntas3Pregunta: "É necessário ter conhecimentos prévios de mecânica ou eletricidade?",
+  preguntas3Respuesta: "Não. Não é um requisito. Valorizamos principalmente a vontade de aprender, a iniciativa e o compromisso com o projeto. A equipe incentiva o aprendizado colaborativo, no qual os integrantes mais experientes orientam e compartilham seus conhecimentos com os novos membros.",
+  preguntas4Pregunta: "Como a equipe é financiada?",
+  preguntas4Respuesta: "A equipe é financiada por meio de patrocinadores, contribuições em espécie, doações e da venda de merchandising oficial. Cada contribuição ajuda a cobrir os custos de desenvolvimento, fabricação e participação na competição.",
+  preguntas5Pregunta: "Quais benefícios os estudantes obtêm ao participar da equipe?",
+  preguntas5Respuesta: "Os estudantes adquirem experiência prática em desenvolvimento de projetos, trabalho em equipe, gestão e comunicação profissional. Além disso, têm a oportunidade de representar a UNLaM em competições nacionais e internacionais, ampliar sua rede de contatos e desenvolver competências essenciais para sua futura carreira.",
+  preguntas6Pregunta: "Como posso apoiar a equipe?",
+  preguntas6Respuesta: "Você pode apoiar o projeto fazendo parte da equipe, tornando-se patrocinador, realizando uma doação ou adquirindo merchandising oficial. Cada contribuição nos ajuda a avançar no desenvolvimento do monoposto e a nos aproximar do objetivo de competir na Fórmula SAE Brasil 2027.",
+  preguntas7Pregunta: "A equipe está aberta a novos integrantes?",
+  preguntas7Respuesta: "Sim. A equipe está sempre aberta para receber novos integrantes. São realizadas seleções periódicas para que estudantes da UNLaM possam se candidatar e participar do projeto, independentemente do curso ou do ano de estudo.",
+  preguntas8Pregunta: "Quais áreas fazem parte da equipe?",
+  preguntas8Respuesta: "A equipe é formada por estudantes de diferentes áreas, incluindo engenharias, comunicação e economia. Cada área desempenha um papel fundamental, desde o desenvolvimento técnico do monoposto até a gestão do projeto, a divulgação e o relacionamento com patrocinadores.",
 
 } as const

@@ -75,9 +75,103 @@ export const en = {
     objetivo4Text: "Build networks with institutions, companies, and sponsors that strengthen the project.",
 
     // Formula SAE
-    formulaSAE: "What is Formula SAE?",
+    formulaSAE: "Formula SAE",
     formulaText:
       "Formula SAE is the most prestigious engineering competition in the world for university students. Teams must design, build, and compete with a formula-style vehicle, being evaluated not only on track but also in technical presentations, cost analyses, and business plans.",
+    saberMas: "Learn more",
+
+    // Formula SAE - Pagina
+    fsaeTitle: "What is Formula SAE?",
+    fsaeDescription: "The university competition where engineering comes to life. Formula SAE is an international engineering design competition organized by SAE International that challenges university students to develop a formula-style race car while tackling technical, economic, and management challenges similar to those faced in the automotive industry.",
+    fsaelink: "Official FSAE Events Website",
+    
+    // seccion-desafio
+    fsaeDesafioTitle: "A Complete Engineering Challenge",
+    fsaeDesafioText: "Unlike other competitions, Formula SAE is not won solely by the fastest car. Each team operates as a real automotive company, integrating engineering, manufacturing, management, and business.",
+    fsaeDesafioText2: "Over the course of more than a year, students design, manufacture, and validate a formula-style race car while managing the budget, securing sponsors, and planning the entire project. The final result is evaluated based on both the vehicle's performance and the quality of the team's engineering and management decisions.",
+    fsaeDesafioText3: "Each project is evaluated by engineers, industry specialists, and professionals using the same engineering and automotive development standards applied in the professional world.",
+    fsaeDesafioFoto: "Development Workshop — MotorSport UNLaM",
+    
+    // seccion-interdisciplinaria
+    fsaeInterTitle: "100% Interdisciplinary",
+    fsaeInterText: "Building a competitive formula-style race car requires the coordinated effort of multiple disciplines, bringing together engineering, management, communication, and design.",
+    fsaeInterElectronica: "Electronics & Software",
+    fsaeInterElectronicaText: "High-voltage system, Battery Management System (BMS), embedded electronics, telemetry, and software development.",
+    fsaeInterMecanica: "Mechanical Engineering & Chassis",
+    fsaeInterMecanicaText: "Tubular chassis, suspension, steering, aerodynamics, and drivetrain.",
+    fsaeInterGestion: "Management & Communication",
+    fsaeInterGestionText: "Sponsorships, cost analysis, project planning, and institutional communications.",
+    fsaeInterTalentos: "Professional Development",
+    fsaeInterTalentosText: "Problem-solving, leadership, teamwork, and project management.",
+    
+    // seccion-categorias
+    fsaeCategoriasTitle: "Categories",
+    fsaeCategoriasCombustion: "Combustion (IC)",
+    fsaeCategoriasCombustionText: "Single-seaters powered by internal combustion engines of up to 710 cm³.",
+    fsaeCategoriasEleccion: "We compete here!",
+    fsaeCategoriasElectrico: "Electric (EV)",
+    fsaeCategoriasElectricoText: "Single-seaters powered exclusively by electric motors and a high-voltage battery system. They integrate power electronics, embedded software, and energy management.",
+    fsaeCategoriasAutonomo: "Autonomous (DV)",
+    fsaeCategoriasAutonomoText: "Vehicles capable of completing a circuit autonomously through sensors, computer vision, and control algorithms.",
+    
+    // seccion-cronograma
+    fsaeCronogramaTitle: "How does the competition work?",
+    fsaeCronogramaText: "From the initial concept to placing the car on the starting grid.",
+    fsaeCronogramaDiseno: "Design",
+    fsaeCronogramaDisenoText: "CAD design, FEA simulations, calculations, and overall vehicle architecture.",
+    fsaeCronogramaConstruir: "Build",
+    fsaeCronogramaConstruirText: "Machining, welding, and assembly of the race car.",
+    fsaeCronogramaValidar: "Validate",
+    fsaeCronogramaValidarText: "Bench testing, system validation, and on-track testing.",
+    fsaeCronogramaCompetir: "Compete",
+    fsaeCronogramaCompetirText: "Static events evaluated by industry judges and dynamic on-track events.",
+    fsaeCronogramaInspeccion: "Technical and Safety Inspection",
+    fsaeCronogramaInspeccionText: "Before taking to the track, every vehicle must pass a series of mandatory inspections to verify compliance with the regulations and safety standards. These include the brake test, the 60° tilt test to ensure there are no fluid leaks, the Rain Test (for the Electric category), and a comprehensive safety inspection of both the vehicle and the driver.",
+    
+    // seccion-puntuacion
+    fsaePuntuacionTitle: "Scoring System",
+    fsaePuntuacionText: "The team's overall performance is measured by dividing the score between static and dynamic events.",
+    fsaePuntuacionEstatico: "Static Events",
+    fsaePuntuacionDiseno: "Design",
+    fsaePuntuacionDisenoText: "Defense of the technical design and engineering decisions before a panel of judges.",
+    fsaePuntuacionCostos: "Cost & Manufacturing",
+    fsaePuntuacionCostosText: "Evaluation and audit of the vehicle's manufacturing costs and production processes.",
+    fsaePuntuacionNegocios: "Business Presentation",
+    fsaePuntuacionNegociosText: "Presentation of the project as a business proposal, evaluating its technical and commercial viability.",
+    fsaePuntuacionDinamico: "Dynamic Events",
+    fsaePuntuacionResistencia: "Endurance",
+    fsaePuntuacionResistenciaText: "Endurance event that evaluates the vehicle's reliability and overall performance.",
+    fsaePuntuacionEficiencia: "Efficiency",
+    fsaePuntuacionEficienciaText: "Evaluation of energy efficiency or fuel consumption during the endurance event, depending on the category.",
+    fsaePuntuacionAutocross: "Autocross",
+    fsaePuntuacionAutocrossText: "Timed lap to evaluate the vehicle's performance and handling.",
+    fsaePuntuacionAceleracion: "Acceleration",
+    fsaePuntuacionAceleracionText: "Straight-line acceleration test to measure the race car's responsiveness.",
+    fsaePuntuacionSkidpad: "Skidpad",
+    fsaePuntuacionAgarre: "Lateral Grip",
+    fsaePuntuacionAgarreText: "Figure-eight course used to evaluate the vehicle's lateral grip and dynamic handling.",
+    
+    // seccion-eleccion-electrica
+    fsaeEleccionTitle: "Why did we choose the Electric category?",
+    fsaeEleccionText: "At MotorSport UNLaM, we believe innovation is the only path toward the future of mobility. We are developing a 100% electric race car, embracing the technologies that are transforming the global automotive industry today:",
+    fsaeEleccionPunto1: "High-Voltage (HV) accumulator systems.",
+    fsaeEleccionPunto2: "Power electronics and three-phase inverters.",
+    fsaeEleccionPunto3: "Data acquisition and embedded control software.",
+    fsaeEleccionPunto4: "A direct bridge to the industry",
+    fsaeEleccionPunto4Text: "Global automotive companies highly value graduates with Formula SAE experience. Team members develop real-world skills in project management, problem-solving under pressure, and international collaboration.",
+    
+    // seccion-metricas
+    fsaeMetricasTitle: "Our Goal",
+    fsaeMetricasText: "We are working to represent the National University of La Matanza and Argentina at Formula SAE Brazil 2027.",
+    fsaeMetricasUniversidades: "Universities from around the world",
+    fsaeMetricasEstudiantes: "Thousands of students every year",
+    fsaeMetricasPuntos: "Points up for grabs",
+    fsaeMetricasBrasil: "Brazil 2027 Goal",
+
+    //seccion-contactanos
+    fsaeContactanosTitle: "Join Us!",
+    fsaeContactanosText: "Follow the development of UNLaM's first 100% electric Formula SAE prototype.",
+    fsaeContactanosButton: "Contact the Team",
 
     // Vehicle
     elVehiculo: "The Vehicle",
@@ -115,9 +209,6 @@ export const en = {
     sponsorDescription: "Companies that believe in us.",
     logoSponsor: "Sponsor Logo",
     sponsorInstituciones: "Institutions that support us",
-
-    // Merch
-    TituloMerch: "¡Llegó el Nuevo Merch Oficial!",
 
     // Contact
     uneteEquipo: "Join the team",
@@ -338,9 +429,24 @@ export const en = {
     planificacionObj5: "Contribute to the strategic planning of the project for the Formula SAE competition.",
     planificacionTeamDesc: "The Planning team is composed of students who work on the strategic organization of the project, coordinating the work between technical areas and managing the progress of the vehicle development. Their role is essential to ensure steady progress and that all areas work in an integrated way toward the objectives of the project.",
 
-    // Merch Promo
-    merchPromoTitle: "The New Official Merch is Here!",
-    merchPromoDescription: "Support the team by wearing our colors. Every purchase brings us closer to the track. Your support directly funds the construction of our race car. Join us and be part of this story!",
-    merchPromoButton: "Explore Store",
-    merchPromoAlt: "Official Motorsport UNLaM Merch",
-  } as const
+    // Preguntas Frecuentes
+    preguntasTitle: "Frequently Asked Questions",
+    preguntasSubtitle: "Answers to your questions about the team and the Formula SAE competition.",
+    preguntas1Pregunta: "Can any UNLaM student join the team?",
+    preguntas1Respuesta: "Yes. Any enrolled student at the National University of La Matanza (UNLaM) can apply, regardless of their degree program or year of study. The most important qualities are commitment and a willingness to learn.",
+    preguntas2Pregunta: "Is the car driven by professional drivers?",
+    preguntas2Respuesta: "No. The drivers are students who are part of the team and are selected based on their performance, preparation, and ability to safely drive the race car during the competition.",
+    preguntas3Pregunta: "Do I need prior knowledge of mechanics or electrical engineering?",
+    preguntas3Respuesta: "No. Previous experience is not required. We primarily value the willingness to learn, initiative, and commitment to the project. The team encourages collaborative learning, where more experienced members mentor and share their knowledge with new recruits.",
+    preguntas4Pregunta: "How is the team funded?",
+    preguntas4Respuesta: "The team is funded through sponsors, in-kind contributions, donations, and the sale of official merchandise. Every contribution helps cover the costs of developing, manufacturing, and competing with the race car.",
+    preguntas5Pregunta: "What benefits do students gain by joining the team?",
+    preguntas5Respuesta: "Students gain hands-on experience in project development, teamwork, management, and professional communication. They also have the opportunity to represent UNLaM in national and international competitions, expand their professional network, and develop key skills for their future careers.",
+    preguntas6Pregunta: "How can I support the team?",
+    preguntas6Respuesta: "You can support the project by joining the team, becoming a sponsor, making a donation, or purchasing official merchandise. Every contribution helps us continue developing our race car and brings us closer to competing in Formula SAE Brazil 2027.",
+    preguntas7Pregunta: "Is the team open to new members?",
+    preguntas7Respuesta: "Yes. The team is always open to welcoming new members. Recruitment periods are held regularly so that UNLaM students can apply and join the project, regardless of their degree program or year of study.",
+    preguntas8Pregunta: "What areas make up the team?",
+    preguntas8Respuesta: "The team is made up of students from different disciplines, including engineering, communication, and economics. Every area plays a key role, from the technical development of the race car to project management, outreach, and sponsor relations.",
+    
+} as const
