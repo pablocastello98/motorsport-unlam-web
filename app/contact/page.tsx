@@ -58,7 +58,7 @@ export default function ContactPage() {
       
       <main className="min-h-screen bg-muted/30">
         {/* HERO */}
-        <section className="relative pt-32 pb-19 md:pt-40 md:pb-30 overflow-hidden bg-[#006A4E]">
+        <section className="relative pt-20 pb-20 md:pt-40 md:pb-30 overflow-hidden bg-[#006A4E]">
           {/* Imagen de Fondo */}
           <div className="absolute inset-0 pointer-events-none">
             <Image
@@ -219,7 +219,7 @@ export default function ContactPage() {
             <div className="bg-card border border-border rounded-3xl p-6 md:p-8 shadow-sm flex flex-col justify-between space-y-6">
               <div className="space-y-6">
                 <h2 className="text-xl md:text-2xl font-bold tracking-wider text-[#006A4E] uppercase">
-                  {t("contacto")}
+                  {t("contactoLink")}
                 </h2>
 
                 <div className="space-y-2">
