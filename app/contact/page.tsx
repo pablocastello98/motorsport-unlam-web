@@ -239,7 +239,7 @@ export default function ContactPage() {
                     <p className="text-sm text-muted-foreground">{t("contactoUbicacion")}</p>
                   </div>
 
-                  {/* Mapa con Botón interactivo */}
+                  {/* Mapa con Botón */}
                   <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-border shadow-inner group">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3641581326856!2d-58.5628052!3d-34.670757599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1785985358568!5m2!1ses-419!2sar"
@@ -249,14 +249,14 @@ export default function ContactPage() {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      className="w-full h-full opacity-85 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                      className="w-full h-full opacity-85 group-hover:opacity-100 transition-all duration-500"
                     />
                     
                     <Link
                       href="https://maps.app.goo.gl/rsb8aQn8nRLWuYY17"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="absolute top-4 left-4 z-10 inline-flex items-center gap-2 bg-white text-[#006A4E] hover:bg-[#006A4E] hover:text-white px-4 py-2 rounded-xl text-xs font-bold shadow-md border border-border transition-all duration-300"
+                      className="absolute top-2 left-1 z-10 inline-flex items-center gap-3 bg-[#006A4E] text-white hover:bg-white hover:text-[#006A4E] px-4 py-2 rounded-xl text-xs font-bold shadow-md border border-border transition-all duration-300"
                     >
                       <span>{t("abrirmaps")}</span>
                       <ExternalLink className="w-3.5 h-3.5" />
