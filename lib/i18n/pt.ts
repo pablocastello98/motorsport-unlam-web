@@ -201,7 +201,7 @@ export const pt = {
   sponsorInstituciones: "Instituições que nos acompanham",
 
   // Contact
-  uneteEquipo: "Junte-se à equipe",
+  uneteEquipo: "Junte-se à Equipe!",
   contactText:
     "Motorsport UNLaM está em busca de empresas e organizações que queiram fazer parte deste projeto inovador. Seu apoio nos ajudará a representar a Argentina em competições internacionais e formar os engenheiros do futuro.",
   porqueUnirte: "Por que se juntar?",
@@ -229,9 +229,9 @@ export const pt = {
   empresa: "Empresa",
   mensaje: "Mensagem",
   enviar: "Enviar mensagem",
-  uneteTitle: "Junte-se à Equipe",
+  uneteTitle: "Junte-se à Equipe!",
   uneteDescription:
-    "Buscamos empresas e organizações que queiram fazer parte deste projeto inovador e apoiar o desenvolvimento da mobilidade elétrica na Argentina.",
+    "Buscamos pessoas,empresas e organizações que queiram fazer parte deste projeto inovador e apoiar o desenvolvimento da mobilidade elétrica na Argentina.",
   porqueSponsor: "Por que ser patrocinador?",
   sponsorBenefit1: "Visibilidade da marca em eventos nacionais e internacionais",
   sponsorBenefit2: "Associação com inovação tecnológica e sustentabilidade",
@@ -243,6 +243,7 @@ export const pt = {
   emailInfo: "motorsport@unlam.edu.ar",
   areasTitle: "Áreas de Patrocínio",
   areasInfo: "Tecnologia, Componentes, Logística, Comunicação, Financeiro",
+  areaspropuesta: "Está procurando uma proposta de patrocínio personalizada ou uma parceria técnica? Você também pode entrar em contato conosco pelas nossas redes sociais ou por e-mail.",
   empresaLabel: "Empresa / Organização",
   empresaPlaceholder: "Nome da empresa",
   contactoLabel: "Pessoa de contato",
@@ -252,10 +253,12 @@ export const pt = {
   mensajeLabel: "Como você gostaria de colaborar?",
   mensajePlaceholder: "Conte-nos sobre seu interesse no projeto...",
   enviarConsulta: "Enviar consulta",
+  contactoCTA: "Entre em Contato",
   botonCargaConsulta: "Enviando...",
   contactoExitosoTitulo: "Mensagem Enviada!",
   contactoExitosoMensaje: "Obrigado por entrar em contato. A equipe Motorsport UNLaM responderá em breve.",
   botonReenviar: "Enviar outra mensagem",
+  abrirmaps: "Abrir no Maps",
 
   // Footer
   footerText: "Equipe de competição da Universidad Nacional de La Matanza",

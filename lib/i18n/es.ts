@@ -211,7 +211,7 @@ export const es = {
     sponsorInstituciones: "Instituciones que nos acompañan",
     
     // Contact
-    uneteEquipo: "Unite al equipo",
+    uneteEquipo: "Unite al Equipo!",
     contactText:
       "Motorsport UNLaM está en búsqueda de empresas y organizaciones que quieran ser parte de este proyecto innovador. Tu apoyo nos ayudará a representar a Argentina en competencias internacionales y formar a los ingenieros del futuro.",
     porqueUnirte: "¿Por qué unirte?",
@@ -239,9 +239,9 @@ export const es = {
     empresa: "Empresa",
     mensaje: "Mensaje",
     enviar: "Enviar mensaje",
-    uneteTitle: "Unite al Equipo",
+    uneteTitle: "Unite al Equipo!",
     uneteDescription:
-      "Buscamos empresas y organizaciones que quieran ser parte de este proyecto innovador y apoyar el desarrollo de la movilidad eléctrica en Argentina.",
+      "Buscamos personas, empresas y organizaciones que quieran ser parte de este proyecto innovador y apoyar el desarrollo de la movilidad eléctrica en Argentina.",
     porqueSponsor: "¿Por qué ser sponsor?",
     sponsorBenefit1: "Visibilidad de marca en eventos nacionales e internacionales",
     sponsorBenefit2: "Asociación con innovación tecnológica y sustentabilidad",
@@ -253,6 +253,7 @@ export const es = {
     emailInfo: "motorsport@unlam.edu.ar",
     areasTitle: "Áreas de Sponsoreo",
     areasInfo: "Tecnología, Componentes, Logística, Comunicación, Financiero",
+    areaspropuesta: "¿Buscás una propuesta de sponsoreo personalizada o una alianza técnica? También podés contactarte con nosotros por nuestras redes sociales o vía correo electrónico.",
     empresaLabel: "Empresa / Organización",
     empresaPlaceholder: "Nombre de la empresa",
     contactoLabel: "Persona de contacto",
@@ -262,10 +263,12 @@ export const es = {
     mensajeLabel: "¿Cómo te gustaría colaborar?",
     mensajePlaceholder: "Contanos sobre tu interés en el proyecto...",
     enviarConsulta: "Enviar consulta",
+    contactoCTA: "Contactarse",
     botonCargaConsulta: "Enviando...",
     contactoExitosoTitulo: "¡Mensaje Enviado!",
     contactoExitosoMensaje: "Gracias por contactarte. El equipo de Motorsport UNLaM te responderá pronto.",
     botonReenviar: "Enviar otro mensaje",
+    abrirmaps: "Abrir en Maps",
 
     // Footer
     footerText: "Equipo de competición de la Universidad Nacional de La Matanza",
