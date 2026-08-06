@@ -4,10 +4,10 @@ import { About } from "@/components/about"
 import { Objectives } from "@/components/objectives"
 import { Sponsors } from "@/components/sponsors"
 import { Vehicle } from "@/components/vehicle"
-import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { MerchPromo } from "@/components/merch-promo"
 import { PreguntasFrecuentes } from "@/components/preguntas-frecuentes" 
+import { ContactoCTA } from "@/components/contact"
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       <Vehicle />
       <MerchPromo /> 
       <PreguntasFrecuentes />
-      <Contact />
+      <ContactoCTA />
       <Footer />
     </main>
   )

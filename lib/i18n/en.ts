@@ -211,9 +211,9 @@ export const en = {
     sponsorInstituciones: "Institutions that support us",
 
     // Contact
-    uneteEquipo: "Join the team",
+    uneteEquipo: "Join the Team!",
     contactText:
-      "Motorsport UNLaM is looking for companies and organizations that want to be part of this innovative project. Your support will help us represent Argentina in international competitions and train the engineers of the future.",
+      "Motorsport UNLaM is looking for people,companies and organizations that want to be part of this innovative project. Your support will help us represent Argentina in international competitions and train the engineers of the future.",
     porqueUnirte: "Why join?",
     visibilidad: "Brand visibility",
     visibilidadText: "Exposure at events, social media, and media outlets",
@@ -239,6 +239,7 @@ export const en = {
     empresa: "Company",
     mensaje: "Message",
     enviar: "Send message",
+    contactoCTA: "Contact Us",
     uneteTitle: "Join the Team",
     uneteDescription:
       "We are looking for companies and organizations that want to be part of this innovative project and support the development of electric mobility in Argentina.",
@@ -253,6 +254,7 @@ export const en = {
     emailInfo: "motorsport@unlam.edu.ar",
     areasTitle: "Sponsorship Areas",
     areasInfo: "Technology, Components, Logistics, Communication, Finance",
+    areaspropuesta: "Looking for a customized sponsorship proposal or a technical partnership? You can also contact us through our social media channels or by email.",
     empresaLabel: "Company / Organization",
     empresaPlaceholder: "Company name",
     contactoLabel: "Contact person",
@@ -266,6 +268,7 @@ export const en = {
     contactoExitosoTitulo: "Message Sent!",
     contactoExitosoMensaje: "Thanks for reaching out. The Motorsport UNLaM team will respond shortly.",
     botonReenviar: "Send another message",
+    abrirmaps: "Open in Maps",
 
     // Footer
     footerText: "Racing team of the Universidad Nacional de La Matanza",

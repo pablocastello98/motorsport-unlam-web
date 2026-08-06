@@ -86,7 +86,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </Link>
               <Link
-                href="https://www.tiktok.com/@unlam_motorsport?_t=zm-90etzxw2blc&_r=1"
+                href="https://www.tiktok.com/@motorsportunlam"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok (abre en pestaña nueva)"
@@ -95,7 +95,7 @@ export function Footer() {
                 <FaTiktok className="w-5 h-5" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/motorsport-unlam-80b412389/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                href="https://www.linkedin.com/in/motorsport-unlam-80b412389/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn (abre en pestaña nueva)"

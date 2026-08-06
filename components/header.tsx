@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import type React from "react"
 
@@ -220,14 +220,16 @@ export function Header() {
               Tienda
             </Link>
 
-            <Button
-              size="sm"
-              className="text-white"
-              style={{ backgroundColor: "#006A4E" }}
-              onClick={(e: React.MouseEvent) => handleSectionClick(e, "contact")}
-            >
-              {t("contactanos")}
-            </Button>
+            <Link href="/contact" passHref legacyBehavior>
+              <Button
+                asChild // IMPORTANTE: Agrega esta propiedad
+                size="sm"
+                className="text-white cursor-pointer"
+                style={{ backgroundColor: "#006A4E" }}
+              >
+                <a>{t("contactanos")}</a>
+              </Button>
+            </Link>
 
             <div className="relative" ref={languageDropdownRef}>
               <button
@@ -381,17 +383,19 @@ export function Header() {
               className="block text-sm font-bold text-[#006A4E] hover:text-[#004d38] transition-colors py-2"
               onClick={(e) => handleSectionClick(e, "tienda")}
             >
-              Tienda
+              {t("merchpromoLink")}
             </Link>
 
-            <Button
-              size="sm"
-              className="w-full text-white"
-              style={{ backgroundColor: "#006A4E" }}
-              onClick={(e: React.MouseEvent) => handleSectionClick(e, "contact")}
-            >
-              {t("contactanos")}
-            </Button>
+            <Link href="/contact" passHref legacyBehavior>
+              <Button
+                asChild
+                size="sm"
+                className="w-full text-white cursor-pointer"
+                style={{ backgroundColor: "#006A4E" }}
+              >
+                <a>{t("contactanos")}</a>
+              </Button>
+            </Link>
           </div>
         )}
       </div>

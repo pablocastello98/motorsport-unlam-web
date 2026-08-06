@@ -26,7 +26,7 @@ export function PreguntasFrecuentes() {
   return (
     <section className="pt-15 pb-16 container mx-auto px-4 md:px-6">
       {/* CABECERA */}
-      <div className="max-w-3xl mx-auto text-center mb-10">
+      <div className="max-w-3xl mx-auto text-center mb-10"> {/* o w-full para pantalla completa */}
         <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: "#006A4E" }}>
           {t("preguntasTitle")}
         </h2>
