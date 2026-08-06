@@ -26,9 +26,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-<<<<<<< Updated upstream
-
-=======
-#archivo Mac basura
->>>>>>> Stashed changes
 .DS_Store
