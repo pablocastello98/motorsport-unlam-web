@@ -39,7 +39,7 @@ export function Hero() {
         <div className="mt-auto">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 text-balance">MOTORSPORT UNLAM</h1>
 
-          {/* BOTONES CON EFECTO DE AGRANDAR (SCALE) */}
+          {/* BOTONES */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
